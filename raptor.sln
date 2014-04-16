@@ -1,12 +1,10 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "raptor", "raptor.csproj", "{C172591C-E104-4537-9753-9C2CF48D8700}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratorAda", "GeneratorAda\GeneratorAda.csproj", "{66B48E78-7F86-4C22-929D-635164C88816}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetgraph", "dotnetgraph\dotnetgraph.csproj", "{FE3C9A65-16AC-4559-A0D4-0673A97AC90D}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "setup1\Setup1.vdproj", "{D8052538-E51A-439F-9EE8-8745464699A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenerator", "CodeGenerator\CodeGenerator.csproj", "{BE60D62D-E757-44F4-A342-5388742F5986}"
 EndProject
@@ -42,10 +40,6 @@ Global
 		{FE3C9A65-16AC-4559-A0D4-0673A97AC90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE3C9A65-16AC-4559-A0D4-0673A97AC90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE3C9A65-16AC-4559-A0D4-0673A97AC90D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D8052538-E51A-439F-9EE8-8745464699A2}.Debug|Any CPU.ActiveCfg = Debug
-		{D8052538-E51A-439F-9EE8-8745464699A2}.Debug|Any CPU.Build.0 = Debug
-		{D8052538-E51A-439F-9EE8-8745464699A2}.Release|Any CPU.ActiveCfg = Release
-		{D8052538-E51A-439F-9EE8-8745464699A2}.Release|Any CPU.Build.0 = Release
 		{BE60D62D-E757-44F4-A342-5388742F5986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BE60D62D-E757-44F4-A342-5388742F5986}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE60D62D-E757-44F4-A342-5388742F5986}.Release|Any CPU.ActiveCfg = Release|Any CPU

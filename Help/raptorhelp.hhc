@@ -1,0 +1,448 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="toc">
+  <param name="Image Width" value="16">
+  <param name="Window Styles" value="0x800002">
+  <param name="ExWindow Styles" value="0x100">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Introducing Raptor">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Introducing Raptor">
+      <param name="Local" value="Introducing_Raptor.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Overview of Raptor">
+      <param name="Local" value="Overview_of_Raptor.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Programming Concepts">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Names:  Rules and Suggestions">
+      <param name="Local" value="Names_in_Raptor.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Variables">
+      <param name="Local" value="Variables_in_Raptor.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Procedure Calls vs. Functions">
+      <param name="Local" value="Procedure_Calls_vs._Functions.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Spacing for Readability">
+      <param name="Local" value="Spacing_for_Readability.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Using Raptor">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Raptor symbols">
+      <param name="Local" value="Raptor_symbols.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Watch window">
+      <param name="Local" value="Watch_window.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Raptor workspace">
+      <param name="Local" value="Raptor_workspace.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Using the menu">
+      <param name="Local" value="Using_the_menu.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Using the toolbar">
+      <param name="Local" value="Using_the_toolbar.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Building a flowchart">
+      <param name="Local" value="Building_a_flowchart.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Executing a flowchart">
+      <param name="Local" value="Executing_a_flowchart.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Editing Symbols">
+      <param name="Local" value="Editing_Symbols.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Using the MasterConsole">
+      <param name="Local" value="Using_the_MasterConsole.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Reducing Displayed Chart Size">
+      <param name="Local" value="reducing_displayed_chart_size.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Raptor Tutorial">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Tutorial - Building a Flowchart">
+      <param name="Local" value="Tutorial_-_Building_a_Flowchart.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Math in Raptor">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Math Operators">
+      <param name="Local" value="math-operators.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Math (Non-Trigonometric) Functions">
+      <param name="Local" value="math-functions.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Trigonometric Functions">
+      <param name="Local" value="trig-functions.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Program Control">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Boolean Expressions">
+      <param name="Local" value="boolean_expressions.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Delay_For">
+      <param name="Local" value="Delay_For.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Clear_Console">
+      <param name="Local" value="Clear_Console.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Graphics">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="About RaptorGraph">
+      <param name="Local" value="About_Raptorgraph.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="RaptorGraph Overview">
+      <param name="Local" value="RaptorGraph_Overview.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Colors">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Colors">
+        <param name="Local" value="Colors.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Closest_Color">
+        <param name="Local" value="Closest_Color.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Generating Random Colors">
+        <param name="Local" value="Generating_Random_Colors.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Drawing Operations">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Clear_Window">
+        <param name="Local" value="Clear_Window.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Draw_Arc">
+        <param name="Local" value="Draw_Arc.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Draw_Bitmap">
+        <param name="Local" value="Draw_Bitmap.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Draw_Box">
+        <param name="Local" value="Draw_Box.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Draw_Circle">
+        <param name="Local" value="Draw_Circle.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Draw_Ellipse">
+        <param name="Local" value="Draw_Ellipse.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Draw_Line">
+        <param name="Local" value="Draw_Line.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Flood_Fill">
+        <param name="Local" value="Flood_Fill.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Get_Pixel">
+        <param name="Local" value="Get_Pixel.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Load_Bitmap">
+        <param name="Local" value="Load_Bitmap.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Put_Pixel">
+        <param name="Local" value="Put_Pixel.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Keyboard Operations">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Get_Key">
+        <param name="Local" value="Get_Key.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Get_Key_String">
+        <param name="Local" value="Get_Key_String.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Key_Down">
+        <param name="Local" value="Key_Down.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Key_Hit">
+        <param name="Local" value="Key_Hit.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Wait_For_Key">
+        <param name="Local" value="Wait_For_Key.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Mouse Operations">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Get_Mouse_Button">
+        <param name="Local" value="Get_Mouse_Button.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Get_Mouse_X">
+        <param name="Local" value="Get_Mouse_X.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Get_Mouse_Y">
+        <param name="Local" value="Get_Mouse_Y.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Mouse_Button_Down">
+        <param name="Local" value="Mouse_Button_Down.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Mouse_Button_Pressed">
+        <param name="Local" value="Mouse_Button_Pressed.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Mouse_Button_Released">
+        <param name="Local" value="Mouse_Button_Released.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Wait_For_Mouse_Button">
+        <param name="Local" value="Wait_For_Mouse_Button.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Text Operations">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Display_Number">
+        <param name="Local" value="display_number.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Display_Text">
+        <param name="Local" value="Display_Text.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Get_Font_Height">
+        <param name="Local" value="Get_Font_Height.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Get_Font_Width">
+        <param name="Local" value="Get_Font_Width.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set_Font_Size">
+        <param name="Local" value="Set_Font_Size.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Window Operations">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Close_Graph_Window">
+        <param name="Local" value="Close_Graph_Window.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Get_Max_Height">
+        <param name="Local" value="get_max_height.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Get_Max_Width">
+        <param name="Local" value="get_max_width.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Get_Window_Height">
+        <param name="Local" value="Get_Window_Height.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Get_Window_Width">
+        <param name="Local" value="get_window_width.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Is_Open">
+        <param name="Local" value="is_open.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Open_Graph_Window">
+        <param name="Local" value="Open_Graph_Window.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Set_Window_Title">
+        <param name="Local" value="Set_Window_Title.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Smoothing Animations">
+        <param name="Local" value="Freeze_Graph_Window.htm">
+      </object>
+      </ul>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Arrays">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Array Overview">
+      <param name="Local" value="Array_Overview.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Two-Dimensional Arrays">
+      <param name="Local" value="Two-Dimensional_Arrays.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Creating Arrays">
+      <param name="Local" value="Creating_Arrays.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Array Operations">
+      <param name="Local" value="Array_Operations.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Reference">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Reference">
+      <param name="Local" value="Raptor_Functions.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Advanced Topics">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Sound">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Sound Operations">
+        <param name="Local" value="Sound_Operations.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Strings">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="String Variables &amp; Assignment">
+        <param name="Local" value="Strings.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="String vs. Numeric Input">
+        <param name="Local" value="String_Input.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="String Operations">
+        <param name="Local" value="String_Operations.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="String Comparisons">
+        <param name="Local" value="String_Comparisons.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Files for Input and Output">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Files Overview">
+        <param name="Local" value="Files_Overview.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Inputting from a File">
+        <param name="Local" value="Inputting_from_a_File.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Input Line by Line">
+        <param name="Local" value="Input_Line_by_Line.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Outputting to a File">
+        <param name="Local" value="Outputting_to_a_File.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Subcharts">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Subchart Overview">
+        <param name="Local" value="Subchart_Overview.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Creating and Modifying Subcharts">
+        <param name="Local" value="Creating_a_Subchart.htm">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Calling Subcharts">
+        <param name="Local" value="Calling_Subcharts.htm">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Variable Type Queries">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Type_Queries">
+        <param name="Local" value="Type_Queries.htm">
+      </object>
+      </ul>
+    </ul>
+</ul>
+</html>

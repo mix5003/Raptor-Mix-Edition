@@ -1,0 +1,59 @@
+C Counsell
+2
+2
+4
+-1
+E Byrnes
+3
+3
+4
+1
+L Gonzalez
+3
+3
+2
+-1
+T Clark
+5
+3
+1
+0
+S Green
+4
+4
+3
+-1
+C Tracy
+3
+4
+3
+1
+C Jackson
+3
+4
+2
+1
+O Hudson
+2
+3
+4
+0
+J Estrada
+2
+4
+2
+0
+B Webb
+3
+5
+3
+1
+8
+4
+4
+4
+4
+4
+4
+2
+6

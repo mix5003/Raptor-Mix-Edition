@@ -1,0 +1,59 @@
+J Pierre
+1
+4
+5
+-1
+R Cedeno
+2
+3
+3
+1
+D Lee
+5
+4
+4
+1
+A Ramirez
+4
+4
+1
+1
+J Jones
+3
+3
+4
+-1
+M Murton
+3
+4
+3
+1
+M Barrett
+3
+3
+2
+1
+T Walker
+2
+4
+3
+-1
+J Hairston
+1
+4
+4
+1
+G Maddux
+2
+5
+5
+1
+8
+1
+2
+3
+4
+4
+5
+6
+6

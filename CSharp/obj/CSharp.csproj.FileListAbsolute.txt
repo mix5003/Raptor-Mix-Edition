@@ -1,0 +1,13 @@
+C:\nclass\src\CSharp\bin\Debug\NClass.CSharp.dll
+C:\nclass\src\CSharp\bin\Debug\NClass.CSharp.pdb
+C:\nclass\src\CSharp\bin\Debug\NClass.Core.dll
+C:\nclass\src\CSharp\bin\Debug\NClass.Translations.dll
+C:\nclass\src\CSharp\bin\Debug\NClass.Translations.pdb
+C:\nclass\src\CSharp\bin\Debug\NClass.Core.pdb
+C:\nclass\src\CSharp\bin\Debug\es\NClass.Translations.resources.dll
+C:\nclass\src\CSharp\bin\Debug\hu\NClass.Translations.resources.dll
+C:\nclass\src\CSharp\bin\Debug\pt-BR\NClass.Translations.resources.dll
+C:\nclass\src\CSharp\bin\Debug\ru\NClass.Translations.resources.dll
+C:\nclass\src\CSharp\obj\Debug\ResolveAssemblyReference.cache
+C:\nclass\src\CSharp\obj\Debug\NClass.CSharp.dll
+C:\nclass\src\CSharp\obj\Debug\NClass.CSharp.pdb

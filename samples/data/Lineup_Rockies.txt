@@ -1,0 +1,56 @@
+C Barmes
+2
+4
+3
+1
+C Sullivan
+1
+4
+4
+-1
+T Helton
+4
+6
+3
+-1
+M Holliday
+3
+4
+4
+1
+B Hawpe
+4
+3
+3
+-1
+G Atkins
+3
+4
+2
+1
+L Gonzalez
+2
+4
+2
+1
+D Ardoin
+2
+2
+2
+1
+E Marrero
+3
+2
+3
+1
+J Jennings
+4
+4
+2
+1
+5
+4
+4
+4
+6
+6

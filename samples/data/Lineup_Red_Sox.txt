@@ -1,0 +1,53 @@
+C Crisp
+3
+5
+4
+0
+M Loretta
+3
+5
+3
+1
+M Ramirez
+5
+4
+2
+1
+D Ortiz
+5
+5
+1
+-1
+J Varitek
+3
+4
+3
+0
+T Nixon
+3
+4
+2
+-1
+M Lowell
+3
+3
+3
+1
+J T Snow
+2
+4
+2
+-1
+A Gonzalez
+3
+2
+3
+1
+C Schilling
+4
+4
+5
+1
+2
+1
+4

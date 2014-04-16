@@ -1,0 +1,57 @@
+B Clark
+2
+4
+3
+1
+R Weeks
+3
+3
+4
+1
+C Lee
+4
+4
+3
+1
+G Jenkins
+4
+3
+2
+-1
+P Fielder
+4
+3
+2
+1
+J.J. Hardy
+2
+3
+2
+1
+C Koskie
+3
+2
+3
+-1
+D Miller
+2
+3
+1
+1
+B Hall
+2
+3
+4
+1
+B Sheets
+4
+4
+5
+1
+6
+1
+1
+1
+2
+2
+4

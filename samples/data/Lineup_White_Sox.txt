@@ -1,0 +1,58 @@
+S Podsednik
+1
+4
+5
+-1
+T Iguchi
+3
+3
+4
+1
+J Thome
+5
+3
+2
+-1
+P Konerko
+4
+4
+1
+1
+J Dye
+4
+3
+3
+1
+B Anderson
+3
+3
+3
+1
+A.J. Pierzynski
+3
+3
+2
+-1
+J Crede
+3
+3
+2
+1
+J Uribe
+3
+3
+3
+1
+M Buerhle
+3
+4
+4
+-1
+7
+1
+1
+2
+3
+4
+4
+6

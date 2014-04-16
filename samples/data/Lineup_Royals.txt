@@ -1,0 +1,53 @@
+D DeJesus
+2
+4
+3
+-1
+M Grudzielanek
+2
+4
+3
+1
+M Sweeney
+3
+4
+2
+1
+R Sanders
+3
+3
+4
+1
+E Brown
+3
+4
+3
+1
+D Mientkiewicz
+2
+2
+2
+-1
+M Teahen
+2
+2
+3
+-1
+J Buck
+2
+2
+1
+1
+A Blanco
+0
+2
+3
+0
+Z Greinke
+3
+4
+3
+1
+2
+1
+6

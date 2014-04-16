@@ -1,0 +1,55 @@
+G Sizemore
+3
+4
+4
+-1
+J Michaels
+2
+3
+3
+1
+J Peralta
+3
+4
+3
+1
+T Hafner
+4
+4
+2
+-1
+V Martinez
+3
+5
+1
+0
+B Broussard
+3
+3
+3
+-1
+R Belliard
+2
+4
+3
+1
+A Boone
+3
+3
+3
+1
+C Blake
+3
+2
+2
+1
+C.C. Sabathia
+4
+3
+3
+-1
+4
+1
+1
+2
+6

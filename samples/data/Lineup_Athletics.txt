@@ -1,0 +1,57 @@
+M Ellis
+2
+4
+4
+1
+M Kotsay
+2
+4
+4
+-1
+M Bradley
+3
+4
+4
+0
+E Chavez
+4
+4
+3
+-1
+F Thomas
+5
+2
+0
+1
+N Swisher
+4
+3
+2
+0
+B Crosby
+3
+3
+4
+1
+J Payton
+3
+2
+3
+1
+J Kendall
+1
+3
+3
+1
+B Zito
+3
+5
+3
+-1
+6
+1
+2
+2
+3
+4
+6

@@ -1,0 +1,953 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="about_nclass" xml:space="preserve">
+    <value>Sobre NClass</value>
+  </data>
+  <data name="abstract_changing" xml:space="preserve">
+    <value>If you change the inheritance modifier to abstract, the parent class will also become abstract. Do you want to continue?</value>
+  </data>
+  <data name="access" xml:space="preserve">
+    <value>Acesso</value>
+  </data>
+  <data name="access:" xml:space="preserve">
+    <value>Acesso:</value>
+  </data>
+  <data name="add_new_aggregation" xml:space="preserve">
+    <value>Nova Agregação</value>
+  </data>
+  <data name="add_new_association" xml:space="preserve">
+    <value>Nova Associação</value>
+  </data>
+  <data name="add_new_class" xml:space="preserve">
+    <value>Adicione Nova Classe</value>
+  </data>
+  <data name="add_new_comment" xml:space="preserve">
+    <value>Adicione Novo Comentário</value>
+  </data>
+  <data name="add_new_comment_relation" xml:space="preserve">
+    <value>Novo Comentário da Relação</value>
+  </data>
+  <data name="add_new_composition" xml:space="preserve">
+    <value>Nova Composição</value>
+  </data>
+  <data name="add_new_delegate" xml:space="preserve">
+    <value>Adicione Novo Delegate</value>
+  </data>
+  <data name="add_new_dependency" xml:space="preserve">
+    <value>New Dependency</value>
+  </data>
+  <data name="add_new_enum" xml:space="preserve">
+    <value>Adicione Novo Enumerador</value>
+  </data>
+  <data name="add_new_generalization" xml:space="preserve">
+    <value>Nova Generalização</value>
+  </data>
+  <data name="add_new_interface" xml:space="preserve">
+    <value>Adicione Nova Interface</value>
+  </data>
+  <data name="add_new_item:" xml:space="preserve">
+    <value>Adicione Novo Item</value>
+  </data>
+  <data name="add_new_nesting" xml:space="preserve">
+    <value>New Nesting</value>
+  </data>
+  <data name="add_new_realization" xml:space="preserve">
+    <value>Nova Realização</value>
+  </data>
+  <data name="add_new_struct" xml:space="preserve">
+    <value>Adicione Nova Struct</value>
+  </data>
+  <data name="aggregation" xml:space="preserve">
+    <value>Agregação</value>
+  </data>
+  <data name="alpha" xml:space="preserve">
+    <value>Alpha</value>
+  </data>
+  <data name="always" xml:space="preserve">
+    <value>Always</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="as_mouse_passes_over" xml:space="preserve">
+    <value>As mouse passes over</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="association" xml:space="preserve">
+    <value>Associação</value>
+  </data>
+  <data name="author" xml:space="preserve">
+    <value>Balazs Tihanyi</value>
+  </data>
+  <data name="auto_zoom" xml:space="preserve">
+    <value>Auto Zoom</value>
+  </data>
+  <data name="beta" xml:space="preserve">
+    <value>Beta</value>
+  </data>
+  <data name="button_add_item" xml:space="preserve">
+    <value>Novo item</value>
+  </data>
+  <data name="button_apply" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="button_cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="button_close" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="button_load" xml:space="preserve">
+    <value>Carregar</value>
+  </data>
+  <data name="button_modify" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="button_ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="button_page_setup" xml:space="preserve">
+    <value>Page setup...</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="button_print" xml:space="preserve">
+    <value>Print</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="button_save" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="button_select_printer" xml:space="preserve">
+    <value>Select printer...</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="checking_for_updates" xml:space="preserve">
+    <value>Procurando Atualizações</value>
+  </data>
+  <data name="class" xml:space="preserve">
+    <value>class</value>
+  </data>
+  <data name="clear_recent_list" xml:space="preserve">
+    <value>Limpando lista de arquivos recentes</value>
+  </data>
+  <data name="command_failed" xml:space="preserve">
+    <value>Comando falhou.</value>
+  </data>
+  <data name="comment" xml:space="preserve">
+    <value>Comentário</value>
+  </data>
+  <data name="composition" xml:space="preserve">
+    <value>Composição</value>
+  </data>
+  <data name="confirmation" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="critical_error" xml:space="preserve">
+    <value>Critical error</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="current" xml:space="preserve">
+    <value>Current</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="delete_confirmation" xml:space="preserve">
+    <value>Você tem certeza que quer remover o(s) ítem(s) selecionados?</value>
+  </data>
+  <data name="delete_selected_items" xml:space="preserve">
+    <value>Delete os ítens selecionados</value>
+  </data>
+  <data name="dependency" xml:space="preserve">
+    <value>Dependencia</value>
+  </data>
+  <data name="diagram" xml:space="preserve">
+    <value>Diagrama</value>
+  </data>
+  <data name="diagram_height" xml:space="preserve">
+    <value>Diagram height:</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="diagram_language" xml:space="preserve">
+    <value>{0} diagrama</value>
+  </data>
+  <data name="diagram_size" xml:space="preserve">
+    <value>Diagram Size</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="diagram_size_dialog_description" xml:space="preserve">
+    <value>Please adjust the maximal size of the diagram workspace.</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="diagram_style" xml:space="preserve">
+    <value>Estilo do Diagrama</value>
+  </data>
+  <data name="diagram_width" xml:space="preserve">
+    <value>Diagram width:</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="diagrams" xml:space="preserve">
+    <value>diagramas</value>
+  </data>
+  <data name="double_click_to_edit" xml:space="preserve">
+    <value>« Duplo click para editar »</value>
+  </data>
+  <data name="edit_comment" xml:space="preserve">
+    <value>Edite o Comentário</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="error_accessor_modifier" xml:space="preserve">
+    <value>Modificador de acesso inválido.</value>
+  </data>
+  <data name="error_cannot_add_same_base_interface" xml:space="preserve">
+    <value>Não pode adicionar a mesma interface base.</value>
+  </data>
+  <data name="error_cannot_add_same_interface" xml:space="preserve">
+    <value>Não pode adicionar a mesma interface.</value>
+  </data>
+  <data name="error_cannot_crate_delegate" xml:space="preserve">
+    <value>Não pode criar delegates no  {0}.</value>
+  </data>
+  <data name="error_cannot_create_relation" xml:space="preserve">
+    <value>Não pode criar a relação entre os objetos.</value>
+  </data>
+  <data name="error_cannot_create_struct" xml:space="preserve">
+    <value>Não pode criar estruturas no  {0}.</value>
+  </data>
+  <data name="error_cannot_inherit" xml:space="preserve">
+    <value>Não pode herdar classes estáticas ou seladas.</value>
+  </data>
+  <data name="error_cannot_override" xml:space="preserve">
+    <value>Não pode sobre escrever um método não virtual.</value>
+  </data>
+  <data name="error_cannot_save_file" xml:space="preserve">
+    <value>Não pode salvar um arquivo sem um caminho específico.</value>
+  </data>
+  <data name="error_cannot_set_access" xml:space="preserve">
+    <value>Não pode colocar acessibilidade.</value>
+  </data>
+  <data name="error_cannot_set_modifier" xml:space="preserve">
+    <value>Não pode colocar modificador.</value>
+  </data>
+  <data name="error_cannot_set_static" xml:space="preserve">
+    <value>Não pode colocar um modificador estático. </value>
+  </data>
+  <data name="error_cannot_set_type" xml:space="preserve">
+    <value>Não pode colocar um tipo</value>
+  </data>
+  <data name="error_connect_to_server" xml:space="preserve">
+    <value>Não é possível conectar ao servidor.</value>
+  </data>
+  <data name="error_const_lack_of_initialization" xml:space="preserve">
+    <value>Variáveis constantes precisam ser inicializadas.</value>
+  </data>
+  <data name="error_constructor_name" xml:space="preserve">
+    <value>Nome do construtos não é igual ao nome da classe.</value>
+  </data>
+  <data name="error_corrupt_save_format" xml:space="preserve">
+    <value>Formato de salvamento corrompido.</value>
+  </data>
+  <data name="error_corrupt_savefile" xml:space="preserve">
+    <value>O arquivos esta corrompido e não pode ser aberto.</value>
+  </data>
+  <data name="error_could_not_load_file" xml:space="preserve">
+    <value>Arquivo não pode ser carregado.</value>
+  </data>
+  <data name="error_could_not_save_file" xml:space="preserve">
+    <value>Arquivos não pode ser salvo.</value>
+  </data>
+  <data name="error_cyclic_base" xml:space="preserve">
+    <value>A base {0} é sucessor do filho {0}.</value>
+  </data>
+  <data name="error_cyclic_nesting" xml:space="preserve">
+    <value>Relações próximas ciclicas.</value>
+  </data>
+  <data name="error_empty_filename" xml:space="preserve">
+    <value>O nome do arquivo não pode estar vazio.</value>
+  </data>
+  <data name="error_empty_string" xml:space="preserve">
+    <value>O {0} não pode ser uma string vazia.</value>
+  </data>
+  <data name="error_explicit_implementation" xml:space="preserve">
+    <value>Não pode ser implementado explícitamente.</value>
+  </data>
+  <data name="error_explicit_implementation_access" xml:space="preserve">
+    <value>Cannot set access modifier in explicit implementing.</value>
+  </data>
+  <data name="error_file_not_found" xml:space="preserve">
+    <value>Arquivo não encontrado ou sem permissão de acesso.</value>
+  </data>
+  <data name="error_forbidden_name" xml:space="preserve">
+    <value>Nome recusado.</value>
+  </data>
+  <data name="error_forbidden_type_name" xml:space="preserve">
+    <value>Tipo de nome recusado.</value>
+  </data>
+  <data name="error_in_saving_image" xml:space="preserve">
+    <value>Erro ao salvar imagem</value>
+  </data>
+  <data name="error_in_saving_settings" xml:space="preserve">
+    <value>Erro ao salvar as configurações.</value>
+  </data>
+  <data name="error_interface_language" xml:space="preserve">
+    <value>A classe interface não é  {0} interface.</value>
+  </data>
+  <data name="error_interface_member_access" xml:space="preserve">
+    <value>Não é possível colocar acessibilidade do membros de  interface.</value>
+  </data>
+  <data name="error_invalid_declaration" xml:space="preserve">
+    <value>Declaração invalida.</value>
+  </data>
+  <data name="error_invalid_name" xml:space="preserve">
+    <value>Nome Inválido.</value>
+  </data>
+  <data name="error_invalid_parameter_declaration" xml:space="preserve">
+    <value>Declaração de parametro inválido.</value>
+  </data>
+  <data name="error_invalid_type_name" xml:space="preserve">
+    <value>Tipo de nome inválido</value>
+  </data>
+  <data name="error_languages_do_not_equal" xml:space="preserve">
+    <value>Linguagens não são iguais.</value>
+  </data>
+  <data name="error_member_type_does_not_exist" xml:space="preserve">
+    <value>{0} tipo de membro não existe.</value>
+  </data>
+  <data name="error_operator_must_be_public" xml:space="preserve">
+    <value>Método operador deve ser público</value>
+  </data>
+  <data name="error_operator_must_be_static" xml:space="preserve">
+    <value>Método operador deve ser estático.</value>
+  </data>
+  <data name="error_parameter_type" xml:space="preserve">
+    <value>Tipo de parametros devem ser {0}.</value>
+  </data>
+  <data name="error_printing" xml:space="preserve">
+    <value>There was an error while printing:\n</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="error_read_version_data" xml:space="preserve">
+    <value>Não é possível ver a data da versão.</value>
+  </data>
+  <data name="error_relation_does_not_exist" xml:space="preserve">
+    <value>A relação expecificada não existe</value>
+  </data>
+  <data name="error_reserved_name" xml:space="preserve">
+    <value>Este é um nome reservado.</value>
+  </data>
+  <data name="error_static_constructor" xml:space="preserve">
+    <value>Construtores estáticos não devem ter parametros.</value>
+  </data>
+  <data name="error_static_indexer" xml:space="preserve">
+    <value>Indexadores não podem ser estáticos.</value>
+  </data>
+  <data name="error_static_interface_member" xml:space="preserve">
+    <value>Membros interface não podem ser estáticos.</value>
+  </data>
+  <data name="error_type" xml:space="preserve">
+    <value>Tipo não pode ser {0}.</value>
+  </data>
+  <data name="error_type_does_not_exist" xml:space="preserve">
+    <value>{0} tipo não existe.</value>
+  </data>
+  <data name="errors_reason" xml:space="preserve">
+    <value>Razão</value>
+  </data>
+  <data name="general" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="generalization" xml:space="preserve">
+    <value>Generalização</value>
+  </data>
+  <data name="implement_explicitly" xml:space="preserve">
+    <value>Implementação explícita</value>
+  </data>
+  <data name="implementing" xml:space="preserve">
+    <value>Implementando</value>
+  </data>
+  <data name="initial_value" xml:space="preserve">
+    <value>Valor inicial</value>
+  </data>
+  <data name="interface" xml:space="preserve">
+    <value>interface</value>
+  </data>
+  <data name="item" xml:space="preserve">
+    <value>Ítem</value>
+  </data>
+  <data name="items_of_type" xml:space="preserve">
+    <value>Items do {0}</value>
+  </data>
+  <data name="items_selected" xml:space="preserve">
+    <value>{0} ítens selecionados</value>
+  </data>
+  <data name="language" xml:space="preserve">
+    <value>Linguagem</value>
+  </data>
+  <data name="load" xml:space="preserve">
+    <value>Carrega</value>
+  </data>
+  <data name="load_last_project" xml:space="preserve">
+    <value>Carregar o último projeto.</value>
+  </data>
+  <data name="members_of_type" xml:space="preserve">
+    <value>Membros do {0}</value>
+  </data>
+  <data name="menu_about" xml:space="preserve">
+    <value>&amp;Sobre NClass...</value>
+  </data>
+  <data name="menu_add_new" xml:space="preserve">
+    <value>&amp;Adiciona Novo</value>
+  </data>
+  <data name="menu_aggregation" xml:space="preserve">
+    <value>A&amp;gregação</value>
+  </data>
+  <data name="menu_align" xml:space="preserve">
+    <value>&amp;Align</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_align_bottom" xml:space="preserve">
+    <value>Align &amp;Bottom</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_align_horizontal" xml:space="preserve">
+    <value>Align &amp;Horizontal Center</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_align_left" xml:space="preserve">
+    <value>Align &amp;Left</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_align_right" xml:space="preserve">
+    <value>Align &amp;Right</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_align_top" xml:space="preserve">
+    <value>Align &amp;Top</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_align_vertical" xml:space="preserve">
+    <value>Align &amp;Vertical Center</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_association" xml:space="preserve">
+    <value>&amp;Associação</value>
+  </data>
+  <data name="menu_auto_height" xml:space="preserve">
+    <value>Auto &amp;Height</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_auto_routing" xml:space="preserve">
+    <value>&amp;Auto routing</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_auto_width" xml:space="preserve">
+    <value>Auto &amp;Width</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_auto_zoom" xml:space="preserve">
+    <value>Auto &amp;Zoom</value>
+  </data>
+  <data name="menu_bidirectional" xml:space="preserve">
+    <value>&amp;Bidirecional</value>
+  </data>
+  <data name="menu_check_for_updates" xml:space="preserve">
+    <value>Procurando por &amp;Updates</value>
+  </data>
+  <data name="menu_class" xml:space="preserve">
+    <value>&amp;Class</value>
+  </data>
+  <data name="menu_collapse_all" xml:space="preserve">
+    <value>&amp;Collapse All</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_collapse_all_selected" xml:space="preserve">
+    <value>&amp;Collapse All Selected</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_comment" xml:space="preserve">
+    <value>Come&amp;ntario</value>
+  </data>
+  <data name="menu_comment_relation" xml:space="preserve">
+    <value>Co&amp;mentario da Relação</value>
+  </data>
+  <data name="menu_composition" xml:space="preserve">
+    <value>C&amp;omposição</value>
+  </data>
+  <data name="menu_contents" xml:space="preserve">
+    <value>&amp;Conteúdo</value>
+  </data>
+  <data name="menu_copy_image_to_clipboard" xml:space="preserve">
+    <value>&amp;Copiar Image para Área de Transferência</value>
+  </data>
+  <data name="menu_csharp_diagram" xml:space="preserve">
+    <value>&amp;C# diagrama</value>
+  </data>
+  <data name="menu_cut" xml:space="preserve">
+    <value>Cor&amp;tar</value>
+  </data>
+  <data name="menu_delegate" xml:space="preserve">
+    <value>&amp;Delegate</value>
+  </data>
+  <data name="menu_delete" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="menu_dependency" xml:space="preserve">
+    <value>&amp;Dependencia</value>
+  </data>
+  <data name="menu_diagram" xml:space="preserve">
+    <value>&amp;Diagrama</value>
+  </data>
+  <data name="menu_diagram_size" xml:space="preserve">
+    <value>&amp;Diagram Size...</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_direction" xml:space="preserve">
+    <value>&amp;Direção</value>
+  </data>
+  <data name="menu_edit" xml:space="preserve">
+    <value>&amp;Editar</value>
+  </data>
+  <data name="menu_edit_comment" xml:space="preserve">
+    <value>&amp;Editar comentário...</value>
+  </data>
+  <data name="menu_edit_members" xml:space="preserve">
+    <value>&amp;Editar membros...</value>
+  </data>
+  <data name="menu_enum" xml:space="preserve">
+    <value>&amp;Enum</value>
+  </data>
+  <data name="menu_exit" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="menu_expand_all" xml:space="preserve">
+    <value>&amp;Expand All</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_expand_all_selected" xml:space="preserve">
+    <value>&amp;Expand All Selected</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_file" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="menu_format" xml:space="preserve">
+    <value>F&amp;ormat</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_generalization" xml:space="preserve">
+    <value>Genera&amp;lização</value>
+  </data>
+  <data name="menu_help" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="menu_initial_value" xml:space="preserve">
+    <value>Valor &amp;Inicial </value>
+  </data>
+  <data name="menu_interface" xml:space="preserve">
+    <value>&amp;Interface</value>
+  </data>
+  <data name="menu_java_diagram" xml:space="preserve">
+    <value>&amp;Java diagrama</value>
+  </data>
+  <data name="menu_make_same_size" xml:space="preserve">
+    <value>&amp;Make Same Size</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_members_format" xml:space="preserve">
+    <value>Formatar &amp;Membros</value>
+  </data>
+  <data name="menu_nesting" xml:space="preserve">
+    <value>&amp;Nesting</value>
+  </data>
+  <data name="menu_new" xml:space="preserve">
+    <value>&amp;Novo</value>
+  </data>
+  <data name="menu_new_file" xml:space="preserve">
+    <value>&amp;Novo Arquivo</value>
+  </data>
+  <data name="menu_open" xml:space="preserve">
+    <value>&amp;Abrir</value>
+  </data>
+  <data name="menu_options" xml:space="preserve">
+    <value>&amp;Opções</value>
+  </data>
+  <data name="menu_parameter_names" xml:space="preserve">
+    <value>&amp;Nomes dos Parametros</value>
+  </data>
+  <data name="menu_parameters" xml:space="preserve">
+    <value>&amp;Parametros</value>
+  </data>
+  <data name="menu_paste" xml:space="preserve">
+    <value>&amp;Colar</value>
+  </data>
+  <data name="menu_print" xml:space="preserve">
+    <value>&amp;Imprimir</value>
+  </data>
+  <data name="menu_properties" xml:space="preserve">
+    <value>&amp;Properties</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_realization" xml:space="preserve">
+    <value>&amp;Realização</value>
+  </data>
+  <data name="menu_redo" xml:space="preserve">
+    <value>&amp;Refazer</value>
+  </data>
+  <data name="menu_same_height" xml:space="preserve">
+    <value>Same &amp;Height</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_same_size" xml:space="preserve">
+    <value>&amp;Same Size</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_same_width" xml:space="preserve">
+    <value>Same &amp;Width</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_save" xml:space="preserve">
+    <value>&amp;Salvar</value>
+  </data>
+  <data name="menu_save_as" xml:space="preserve">
+    <value>Salvar &amp;Como...</value>
+  </data>
+  <data name="menu_save_as_image" xml:space="preserve">
+    <value>&amp;Salvar como Image...</value>
+  </data>
+  <data name="menu_save_selection_as_image" xml:space="preserve">
+    <value>&amp;Save Selection as Image...</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_select_all" xml:space="preserve">
+    <value>&amp;Selecionar Todos</value>
+  </data>
+  <data name="menu_size" xml:space="preserve">
+    <value>&amp;Size</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_struct" xml:space="preserve">
+    <value>&amp;Struct</value>
+  </data>
+  <data name="menu_type" xml:space="preserve">
+    <value>&amp;Type</value>
+  </data>
+  <data name="menu_undo" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="menu_unidirectional" xml:space="preserve">
+    <value>&amp;Unidirectional</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_zoom" xml:space="preserve">
+    <value>&amp;Zoom</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_zoom_in" xml:space="preserve">
+    <value>Zoom &amp;In</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="menu_zoom_out" xml:space="preserve">
+    <value>Zoom &amp;Out</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="modifier:" xml:space="preserve">
+    <value>Modificador:</value>
+  </data>
+  <data name="modify_item:" xml:space="preserve">
+    <value>Modificar item:</value>
+  </data>
+  <data name="move_down" xml:space="preserve">
+    <value>Mover para baixo</value>
+  </data>
+  <data name="move_up" xml:space="preserve">
+    <value>Mover para cima</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="name:" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="nesting" xml:space="preserve">
+    <value>Nesting</value>
+  </data>
+  <data name="never" xml:space="preserve">
+    <value>Never</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="new_constructor" xml:space="preserve">
+    <value>Novo Construtor</value>
+  </data>
+  <data name="new_destructor" xml:space="preserve">
+    <value>Novo Destrutor</value>
+  </data>
+  <data name="new_event" xml:space="preserve">
+    <value>Novo Evento</value>
+  </data>
+  <data name="new_field" xml:space="preserve">
+    <value>Novo Campo</value>
+  </data>
+  <data name="new_method" xml:space="preserve">
+    <value>Novo Método</value>
+  </data>
+  <data name="new_property" xml:space="preserve">
+    <value>Nova Propriedade</value>
+  </data>
+  <data name="new_version" xml:space="preserve">
+    <value>Nova versão disponível</value>
+  </data>
+  <data name="no_updates" xml:space="preserve">
+    <value>Nenhum atualização disponível</value>
+  </data>
+  <data name="not_implemented" xml:space="preserve">
+    <value>Esta funcionalidade não esta implementada ainda.</value>
+  </data>
+  <data name="options" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="override_members" xml:space="preserve">
+    <value>Sobreescrevendo Membros</value>
+  </data>
+  <data name="pages:" xml:space="preserve">
+    <value>Pages:</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="print" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="print_only_selected_elements" xml:space="preserve">
+    <value>Print only selected elements</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="program_download" xml:space="preserve">
+    <value>Você gostaria de realizar o download agora?</value>
+  </data>
+  <data name="program_terminates" xml:space="preserve">
+    <value>A critical error occured, the program must be terminated.
+A crash log and a recovery file have been created in the program's directory.</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="readonly" xml:space="preserve">
+    <value>Somente Leitura</value>
+  </data>
+  <data name="ready" xml:space="preserve">
+    <value>Leitura</value>
+  </data>
+  <data name="realization" xml:space="preserve">
+    <value>Realização</value>
+  </data>
+  <data name="release_candidate" xml:space="preserve">
+    <value>Release candidate</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="save_as" xml:space="preserve">
+    <value>Salvar Como</value>
+  </data>
+  <data name="save_as_image" xml:space="preserve">
+    <value>Salvar como Imagem</value>
+  </data>
+  <data name="save_changes_confirmation" xml:space="preserve">
+    <value>O arquivo foi alterado. Você gostaria de salvar as mudancas?</value>
+  </data>
+  <data name="send_email" xml:space="preserve">
+    <value>Envie um email para o autor do programa.</value>
+  </data>
+  <data name="send_log_file" xml:space="preserve">
+    <value>Please send this file to the address '{0}'.</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="show_chevron" xml:space="preserve">
+    <value>Show chevron button:</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="show_full_path" xml:space="preserve">
+    <value>Mostre todo o caminho no cabeçalho</value>
+  </data>
+  <data name="sort_by_access" xml:space="preserve">
+    <value>Organizar pelo acesso</value>
+  </data>
+  <data name="sort_by_kind" xml:space="preserve">
+    <value>Organizar pela chave</value>
+  </data>
+  <data name="sort_by_name" xml:space="preserve">
+    <value>Organizar pelo nome</value>
+  </data>
+  <data name="style" xml:space="preserve">
+    <value>Estilo</value>
+  </data>
+  <data name="style:" xml:space="preserve">
+    <value>Estilo:</value>
+  </data>
+  <data name="syntax" xml:space="preserve">
+    <value>Sintaxe</value>
+  </data>
+  <data name="translation_name" xml:space="preserve">
+    <value>BrazilianPortuguese</value>
+    <comment>It's needed for version controlling, don't translate it</comment>
+  </data>
+  <data name="translation_updated" xml:space="preserve">
+    <value>Brazilian Portuguese translation has been updated.</value>
+    <comment>Missing</comment>
+  </data>
+  <data name="translation_version" xml:space="preserve">
+    <value>2007-05-31</value>
+    <comment>It's needed for version controlling, don't translate it</comment>
+  </data>
+  <data name="translator" xml:space="preserve">
+    <value>Tradutor: Alessandro Binhara (Binhara@gmail.com)</value>
+    <comment>Translator: &lt;name&gt;</comment>
+  </data>
+  <data name="type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="type_text:" xml:space="preserve">
+    <value>Tipo Texto:</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Desconhecido</value>
+  </data>
+  <data name="untitled" xml:space="preserve">
+    <value>Sem Titulo</value>
+  </data>
+  <data name="use_precision_snapping" xml:space="preserve">
+    <value>Use mudança precisa</value>
+  </data>
+  <data name="version" xml:space="preserve">
+    <value>{0} versão</value>
+  </data>
+  <data name="visible_members:" xml:space="preserve">
+    <value>Membros Visiveis:</value>
+  </data>
+  <data name="visit_homepage" xml:space="preserve">
+    <value>Visit a home page</value>
+  </data>
+  <data name="zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="zoom_in" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="zoom_out" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+</root>

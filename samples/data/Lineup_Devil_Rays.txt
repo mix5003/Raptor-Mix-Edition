@@ -1,0 +1,55 @@
+C Crawford
+2
+4
+6
+-1
+J Lugo
+2
+3
+4
+1
+J Cantu
+3
+3
+2
+1
+A Huff
+3
+4
+3
+-1
+J Gomes
+4
+3
+3
+1
+T Lee
+3
+3
+3
+-1
+R Baldelli
+3
+3
+4
+1
+T Wigginton
+3
+3
+3
+1
+T Hall
+2
+2
+1
+1
+S Kazmir
+4
+4
+1
+-1
+3
+1
+1
+3
+

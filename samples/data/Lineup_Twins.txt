@@ -1,0 +1,56 @@
+L Castillo
+1
+4
+4
+0
+S Stewart
+2
+4
+3
+1
+J Mauer
+2
+5
+3
+1
+J Morneau
+4
+3
+2
+1
+T Hunter
+3
+3
+3
+1
+R White
+3
+3
+2
+1
+M Cuddyer
+3
+3
+2
+1
+T Batista
+3
+2
+2
+1
+J Castro
+1
+2
+2
+1
+J Santana
+4
+5
+5
+1
+5
+1
+1
+2
+6
+6

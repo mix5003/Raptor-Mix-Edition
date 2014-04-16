@@ -1,0 +1,59 @@
+B Wilkerson
+3
+3
+4
+-1
+M Young
+3
+5
+3
+1
+M Teixeira
+5
+4
+3
+0
+P Nevin
+3
+3
+3
+1
+H Blalock
+4
+4
+2
+-1
+K Mench
+4
+3
+3
+1
+L Nix
+2
+2
+4
+-1
+R Barajas
+3
+2
+2
+1
+I Kinsler
+3
+3
+3
+1
+K Millwood
+3
+4
+3
+1
+8
+1
+1
+1
+2
+3
+4
+4
+7

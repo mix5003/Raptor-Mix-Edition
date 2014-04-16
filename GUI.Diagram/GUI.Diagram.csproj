@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F52A7548-E60A-485B-9C84-1D2871416DB7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NClass.GUI.Diagram</RootNamespace>
+    <AssemblyName>NClass.GUI.Diagram</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbsoluteMouseEventArgs.cs" />
+    <Compile Include="Connections\Connection.cs" />
+    <Compile Include="Connections\Association.cs" />
+    <Compile Include="Connections\Arrowhead.cs" />
+    <Compile Include="Connections\Dependency.cs" />
+    <Compile Include="Connections\Nesting.cs" />
+    <Compile Include="Connections\CommentConnection.cs" />
+    <Compile Include="Connections\Generalization.cs" />
+    <Compile Include="Connections\Realization.cs" />
+    <Compile Include="ContextMenus\ContextMenu.cs" />
+    <Compile Include="ContextMenus\CommentShapeContextMenu.cs" />
+    <Compile Include="ContextMenus\ConnectionContextMenu.cs" />
+    <Compile Include="ContextMenus\AssociationContextMenu.cs" />
+    <Compile Include="ContextMenus\GeneralContextMenu.cs" />
+    <Compile Include="ContextMenus\TypeShapeContextMenu.cs" />
+    <Compile Include="ContextMenus\ShapeContextMenu.cs" />
+    <Compile Include="IDiagram.cs" />
+    <Compile Include="ContextMenus\Intersector.cs" />
+    <Compile Include="IClipboardItem.cs" />
+    <Compile Include="Connections\BendPoint.cs" />
+    <Compile Include="DiagramClipboard.cs" />
+    <Compile Include="IDiagramPlugin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MoveEventArgs.cs" />
+    <Compile Include="Shapes\ResizeEventArgs.cs" />
+    <Compile Include="ToolStripSimplifiedRenderer.cs">
+    </Compile>
+    <Compile Include="DiagramElement.cs" />
+    <Compile Include="Dialogs\DelegateDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\EditCommentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\EditCommentDialog.Designer.cs">
+      <DependentUpon>EditCommentDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\EnumDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ImplementDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ListDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ListDialog.Designer.cs">
+      <DependentUpon>ListDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\OverrideDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\TreeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\TreeDialog.Designer.cs">
+      <DependentUpon>TreeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Icons.cs" />
+    <Compile Include="Dialogs\MembersDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\MembersDialog.designer.cs">
+      <DependentUpon>MembersDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonoHelper.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Shapes\DiagramShape.cs" />
+    <Compile Include="Style.cs" />
+    <Compile Include="IPrintableDiagram.cs" />
+    <Compile Include="OrderedList.cs" />
+    <Compile Include="Dialogs\PrintDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\PrintDialog.Designer.cs">
+      <DependentUpon>PrintDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiagramControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DiagramControl.Designer.cs">
+      <DependentUpon>DiagramControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shapes\ClassShape.cs" />
+    <Compile Include="Shapes\CommentShape.cs" />
+    <Compile Include="Shapes\CompositeTypeShape.cs" />
+    <Compile Include="Shapes\DelegateShape.cs" />
+    <Compile Include="Shapes\EnumShape.cs" />
+    <Compile Include="Shapes\InterfaceShape.cs" />
+    <Compile Include="Shapes\StructShape.cs" />
+    <Compile Include="Shapes\TypeShape.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DiagramControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DiagramControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\EditCommentDialog.resx">
+      <DependentUpon>EditCommentDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ListDialog.resx">
+      <DependentUpon>ListDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\MembersDialog.resx">
+      <DependentUpon>MembersDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\PrintDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PrintDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\TreeDialog.resx">
+      <DependentUpon>TreeDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{8CF10505-3C2E-4E45-AB90-21613237B412}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translations\Translations.csproj">
+      <Project>{B3B7D798-3D52-47F0-B1A7-A91BC5FE184F}</Project>
+      <Name>Translations</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

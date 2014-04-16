@@ -1,0 +1,59 @@
+C Granderson
+3
+3
+4
+-1
+P Polanco
+2
+5
+3
+1
+C Shelton
+4
+4
+2
+1
+M Ordonez
+3
+4
+2
+1
+C Guillen
+3
+4
+4
+0
+I Rodriguez
+3
+3
+3
+1
+D Young
+3
+3
+2
+0
+B Inge
+3
+3
+3
+1
+C Monroe
+3
+3
+3
+1
+K Rogers
+2
+4
+4
+-1
+8
+2
+2
+4
+4
+4
+6
+6
+7

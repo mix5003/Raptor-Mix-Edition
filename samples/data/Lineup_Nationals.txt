@@ -1,0 +1,58 @@
+A Soriano
+4
+3
+4
+1
+J Vidro
+2
+4
+2
+0
+J Guillen
+3
+4
+3
+1
+N Johnson
+3
+4
+2
+-1
+R Church
+3
+3
+3
+-1
+R Zimmerman
+2
+4
+3
+1
+M LeCroy
+3
+3
+1
+1
+B Schneider
+2
+2
+2
+-1
+R Clayton
+1
+3
+4
+1
+L Hernandez
+3
+4
+3
+1
+7
+1
+1
+1
+2
+2
+3
+6

@@ -1,0 +1,56 @@
+B Roberts
+2
+4
+5
+0
+M Mora
+3
+5
+3
+1
+M Tejada
+4
+5
+3
+1
+J Gibbons
+3
+3
+2
+-1
+J Lopez
+3
+4
+2
+1
+R Hernandez
+3
+4
+2
+1
+K Millar
+3
+3
+2
+1
+C Patterson
+3
+3
+4
+-1
+J Conine
+2
+4
+2
+1
+K Benson
+4
+3
+4
+1
+5
+3
+4
+4
+4
+6

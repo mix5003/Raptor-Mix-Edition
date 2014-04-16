@@ -1,0 +1,1318 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Abs">
+    <param name="Name" value="Math (Non-Trigonometric) Functions">
+    <param name="Local" value="math-functions.htm">
+    <param name="Name" value="Procedure Calls vs. Functions">
+    <param name="Local" value="Procedure_Calls_vs._Functions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="AND">
+    <param name="Name" value="Controlling Flowchart Execution with Boolean Expressions">
+    <param name="Local" value="boolean_expressions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Arccos">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Local" value="trig-functions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Arccot">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Local" value="trig-functions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Arcsin">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Local" value="trig-functions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Arctan">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Local" value="trig-functions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Array Operations">
+    <param name="Name" value="Array Operations">
+    <param name="Local" value="Array_Operations.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Arrays">
+    <param name="Name" value="Variables in Raptor">
+    <param name="Local" value="Variables_in_Raptor.htm">
+    <param name="Name" value="Creating Arrays">
+    <param name="Local" value="Creating_Arrays.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Creating">
+      <param name="Name" value="Creating Arrays">
+      <param name="Local" value="Creating_Arrays.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Assignments">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Local" value="trig-functions.htm">
+    <param name="Name" value="Tutorial - Building a Flowchart">
+    <param name="Local" value="Tutorial_-_Building_a_Flowchart.htm">
+    <param name="Name" value="Variables in Raptor">
+    <param name="Local" value="Variables_in_Raptor.htm">
+    <param name="Name" value="String Variables &amp; Assignment">
+    <param name="Local" value="Strings.htm">
+    <param name="Name" value="Math (Non-Trigonometric) Functions">
+    <param name="Local" value="math-functions.htm">
+    <param name="Name" value="get_max_width">
+    <param name="Local" value="get_max_width.htm">
+    <param name="Name" value="Procedure Calls vs. Functions">
+    <param name="Local" value="Procedure_Calls_vs._Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Boolean Expressions">
+    <param name="Name" value="Controlling Flowchart Execution with Boolean Expressions">
+    <param name="Local" value="boolean_expressions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Boolean Functions">
+    <param name="Name" value="Controlling Flowchart Execution with Boolean Expressions">
+    <param name="Local" value="boolean_expressions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Boolean Operators">
+    <param name="Name" value="Controlling Flowchart Execution with Boolean Expressions">
+    <param name="Local" value="boolean_expressions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Breakpoints">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Building">
+    <param name="Name" value="Building a flowchart">
+    <param name="Local" value="Building_a_flowchart.htm">
+    <param name="Name" value="Tutorial - Building a Flowchart">
+    <param name="Local" value="Tutorial_-_Building_a_Flowchart.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="flowchart">
+      <param name="Name" value="Building a flowchart">
+      <param name="Local" value="Building_a_flowchart.htm">
+      <param name="Name" value="Tutorial - Building a Flowchart">
+      <param name="Local" value="Tutorial_-_Building_a_Flowchart.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="CEILING">
+    <param name="Name" value="Math (Non-Trigonometric) Functions">
+    <param name="Local" value="math-functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Clear_Console">
+    <param name="Name" value="Clear_Console">
+    <param name="Local" value="Clear_Console.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Clear_Window">
+    <param name="Name" value="Clear_Window">
+    <param name="Local" value="Clear_Window.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Clipboard">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Print">
+      <param name="Name" value="Using the menu">
+      <param name="Local" value="Using_the_menu.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Close_Graph_Window">
+    <param name="Name" value="Close_Graph_Window">
+    <param name="Local" value="Close_Graph_Window.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Closest_Color">
+    <param name="Name" value="Closest_Color">
+    <param name="Local" value="Closest_Color.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Color">
+    <param name="Name" value="Draw_Box">
+    <param name="Local" value="Draw_Box.htm">
+    <param name="Name" value="Draw_Line">
+    <param name="Local" value="Draw_Line.htm">
+    <param name="Name" value="Display_Text">
+    <param name="Local" value="Display_Text.htm">
+    <param name="Name" value="display_number">
+    <param name="Local" value="display_number.htm">
+    <param name="Name" value="Draw_Arc">
+    <param name="Local" value="Draw_Arc.htm">
+    <param name="Name" value="Draw_Ellipse">
+    <param name="Local" value="Draw_Ellipse.htm">
+    <param name="Name" value="Colors">
+    <param name="Local" value="Colors.htm">
+    <param name="Name" value="Draw_Circle">
+    <param name="Local" value="Draw_Circle.htm">
+    <param name="Name" value="Put_Pixel">
+    <param name="Local" value="Put_Pixel.htm">
+    <param name="Name" value="Flood_Fill">
+    <param name="Local" value="Flood_Fill.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Comparisons">
+    <param name="Name" value="String Comparisons">
+    <param name="Local" value="String_Comparisons.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="String">
+      <param name="Name" value="String Comparisons">
+      <param name="Local" value="String_Comparisons.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Computer Science">
+    <param name="Name" value="About Raptorgraph">
+    <param name="Local" value="About_Raptorgraph.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Department">
+      <param name="Name" value="About Raptorgraph">
+      <param name="Local" value="About_Raptorgraph.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Concatentation">
+    <param name="Name" value="String Variables &amp; Assignment">
+    <param name="Local" value="Strings.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Cos">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Local" value="trig-functions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="COT">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Local" value="trig-functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Count Symbols">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Creating">
+    <param name="Name" value="Creating a Subchart">
+    <param name="Local" value="Creating_a_Subchart.htm">
+    <param name="Name" value="Subchart Overview">
+    <param name="Local" value="Subchart_Overview.htm">
+    <param name="Name" value="Creating Arrays">
+    <param name="Local" value="Creating_Arrays.htm">
+    <param name="Name" value="Names in Raptor">
+    <param name="Local" value="Names_in_Raptor.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Subchart">
+      <param name="Name" value="Creating a Subchart">
+      <param name="Local" value="Creating_a_Subchart.htm">
+      <param name="Name" value="Subchart Overview">
+      <param name="Local" value="Subchart_Overview.htm">
+      <param name="Name" value="Names in Raptor">
+      <param name="Local" value="Names_in_Raptor.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Arrays">
+      <param name="Name" value="Creating Arrays">
+      <param name="Local" value="Creating_Arrays.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Two-Dimensional Arrays">
+      <param name="Name" value="Creating Arrays">
+      <param name="Local" value="Creating_Arrays.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Delay_For">
+    <param name="Name" value="Delay_For">
+    <param name="Local" value="Delay_For.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Display_Number">
+    <param name="Name" value="display_number">
+    <param name="Local" value="display_number.htm">
+    <param name="Name" value="Generating Random Colors">
+    <param name="Local" value="Generating_Random_Colors.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Display_Text">
+    <param name="Name" value="Display_Text">
+    <param name="Local" value="Display_Text.htm">
+    <param name="Name" value="Generating Random Colors">
+    <param name="Local" value="Generating_Random_Colors.htm">
+    <param name="Name" value="Names in Raptor">
+    <param name="Local" value="Names_in_Raptor.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Displayed Chart Size">
+    <param name="Name" value="Reducing Displayed Chart Size">
+    <param name="Local" value="reducing_displayed_chart_size.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Reducing">
+      <param name="Name" value="Reducing Displayed Chart Size">
+      <param name="Local" value="reducing_displayed_chart_size.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Draw_Arc">
+    <param name="Name" value="Draw_Arc">
+    <param name="Local" value="Draw_Arc.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Draw_Bitmap">
+    <param name="Name" value="Draw_Bitmap">
+    <param name="Local" value="Draw_Bitmap.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Draw_Box">
+    <param name="Name" value="Draw_Box">
+    <param name="Local" value="Draw_Box.htm">
+    <param name="Name" value="Colors">
+    <param name="Local" value="Colors.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Draw_Circle">
+    <param name="Name" value="Subchart Overview">
+    <param name="Local" value="Subchart_Overview.htm">
+    <param name="Name" value="Draw_Circle">
+    <param name="Local" value="Draw_Circle.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+    <param name="Name" value="Calling Subcharts">
+    <param name="Local" value="Calling_Subcharts.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Draw_Ellipse">
+    <param name="Name" value="Draw_Ellipse">
+    <param name="Local" value="Draw_Ellipse.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Draw_Line">
+    <param name="Name" value="Draw_Line">
+    <param name="Local" value="Draw_Line.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Edit">
+    <param name="Name" value="Building a flowchart">
+    <param name="Local" value="Building_a_flowchart.htm">
+    <param name="Name" value="Creating a Subchart">
+    <param name="Local" value="Creating_a_Subchart.htm">
+    <param name="Name" value="Editing Symbols">
+    <param name="Local" value="Editing_Symbols.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Symbols">
+      <param name="Name" value="Editing Symbols">
+      <param name="Local" value="Editing_Symbols.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Edit menu">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="End_Of_Input">
+    <param name="Name" value="Input Line by Line">
+    <param name="Local" value="Input_Line_by_Line.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Execute">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+    <param name="Name" value="Executing a flowchart">
+    <param name="Local" value="Executing_a_flowchart.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="flowchart">
+      <param name="Name" value="Executing a flowchart">
+      <param name="Local" value="Executing_a_flowchart.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="File menu">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Files">
+    <param name="Name" value="Input Line by Line">
+    <param name="Local" value="Input_Line_by_Line.htm">
+    <param name="Name" value="Inputting from a File">
+    <param name="Local" value="Inputting_from_a_File.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Inputting Unknown Size">
+      <param name="Name" value="Input Line by Line">
+      <param name="Local" value="Input_Line_by_Line.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Outputting">
+      <param name="Name" value="Outputting to a File">
+      <param name="Local" value="Outputting_to_a_File.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Flood_Fill">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+    <param name="Name" value="Flood_Fill">
+    <param name="Local" value="Flood_Fill.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="FLOOR">
+    <param name="Name" value="Math (Non-Trigonometric) Functions">
+    <param name="Local" value="math-functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Flowchart">
+    <param name="Name" value="Building a flowchart">
+    <param name="Local" value="Building_a_flowchart.htm">
+    <param name="Name" value="Tutorial - Building a Flowchart">
+    <param name="Local" value="Tutorial_-_Building_a_Flowchart.htm">
+    <param name="Name" value="Executing a flowchart">
+    <param name="Local" value="Executing_a_flowchart.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Building">
+      <param name="Name" value="Building a flowchart">
+      <param name="Local" value="Building_a_flowchart.htm">
+      <param name="Name" value="Tutorial - Building a Flowchart">
+      <param name="Local" value="Tutorial_-_Building_a_Flowchart.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Executing">
+      <param name="Name" value="Executing a flowchart">
+      <param name="Local" value="Executing_a_flowchart.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Freeze_Graph_Window">
+    <param name="Name" value="Freeze_Graph_Window">
+    <param name="Local" value="Freeze_Graph_Window.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get Window Height">
+    <param name="Name" value="Get_Window_Height">
+    <param name="Local" value="Get_Window_Height.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get Window Width">
+    <param name="Name" value="get_window_width">
+    <param name="Local" value="get_window_width.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Font_Height">
+    <param name="Name" value="Get_Font_Height">
+    <param name="Local" value="Get_Font_Height.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Font_Width">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+    <param name="Name" value="Get_Font_Width">
+    <param name="Local" value="Get_Font_Width.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Key">
+    <param name="Name" value="Key_Hit">
+    <param name="Local" value="Key_Hit.htm">
+    <param name="Name" value="Get_Key">
+    <param name="Local" value="Get_Key.htm">
+    <param name="Name" value="Names in Raptor">
+    <param name="Local" value="Names_in_Raptor.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Key_String">
+    <param name="Name" value="Get_Key_String">
+    <param name="Local" value="Get_Key_String.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Max_Height">
+    <param name="Name" value="get_max_height">
+    <param name="Local" value="get_max_height.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Max_Width">
+    <param name="Name" value="get_max_width">
+    <param name="Local" value="get_max_width.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Max_Width,Get_Max_Height">
+    <param name="Name" value="get_max_height">
+    <param name="Local" value="get_max_height.htm">
+    <param name="Name" value="get_max_width">
+    <param name="Local" value="get_max_width.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Mouse_Button">
+    <param name="Name" value="Get_Mouse_Button">
+    <param name="Local" value="Get_Mouse_Button.htm">
+    <param name="Name" value="Names in Raptor">
+    <param name="Local" value="Names_in_Raptor.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+    <param name="Name" value="Mouse_Button_Pressed">
+    <param name="Local" value="Mouse_Button_Pressed.htm">
+    <param name="Name" value="Mouse_Button_Released">
+    <param name="Local" value="Mouse_Button_Released.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Mouse_X">
+    <param name="Name" value="Get_Mouse_X">
+    <param name="Local" value="Get_Mouse_X.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Mouse_Y">
+    <param name="Name" value="Get_Mouse_Y">
+    <param name="Local" value="Get_Mouse_Y.htm">
+    <param name="Name" value="Procedure Calls vs. Functions">
+    <param name="Local" value="Procedure_Calls_vs._Functions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Pixel">
+    <param name="Name" value="Get_Pixel">
+    <param name="Local" value="Get_Pixel.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Window_Height">
+    <param name="Name" value="Get_Window_Height">
+    <param name="Local" value="Get_Window_Height.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Get_Window_Width">
+    <param name="Name" value="get_window_width">
+    <param name="Local" value="get_window_width.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Help menu">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Input">
+    <param name="Name" value="String Input">
+    <param name="Local" value="String_Input.htm">
+    <param name="Name" value="Tutorial - Building a Flowchart">
+    <param name="Local" value="Tutorial_-_Building_a_Flowchart.htm">
+    <param name="Name" value="Input Line by Line">
+    <param name="Local" value="Input_Line_by_Line.htm">
+    <param name="Name" value="Variables in Raptor">
+    <param name="Local" value="Variables_in_Raptor.htm">
+    <param name="Name" value="Inputting from a File">
+    <param name="Local" value="Inputting_from_a_File.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Editing Input Symbol">
+      <param name="Name" value="Editing Symbols">
+      <param name="Local" value="Editing_Symbols.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="String">
+      <param name="Name" value="String Input">
+      <param name="Local" value="String_Input.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Redirecting">
+      <param name="Name" value="Inputting from a File">
+      <param name="Local" value="Inputting_from_a_File.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Is_2D_Array">
+    <param name="Name" value="Type_Queries">
+    <param name="Local" value="Type_Queries.htm">
+    <param name="Name" value="Variables in Raptor">
+    <param name="Local" value="Variables_in_Raptor.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Is_Array">
+    <param name="Name" value="Type_Queries">
+    <param name="Local" value="Type_Queries.htm">
+    <param name="Name" value="Variables in Raptor">
+    <param name="Local" value="Variables_in_Raptor.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Is_Number">
+    <param name="Name" value="Type_Queries">
+    <param name="Local" value="Type_Queries.htm">
+    <param name="Name" value="Variables in Raptor">
+    <param name="Local" value="Variables_in_Raptor.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Is_Open">
+    <param name="Name" value="is_open">
+    <param name="Local" value="is_open.htm">
+    <param name="Name" value="Controlling Flowchart Execution with Boolean Expressions">
+    <param name="Local" value="boolean_expressions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Is_String">
+    <param name="Name" value="Type_Queries">
+    <param name="Local" value="Type_Queries.htm">
+    <param name="Name" value="Variables in Raptor">
+    <param name="Local" value="Variables_in_Raptor.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Key_Down">
+    <param name="Name" value="Key_Down">
+    <param name="Local" value="Key_Down.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Key_Hit">
+    <param name="Name" value="Key_Hit">
+    <param name="Local" value="Key_Hit.htm">
+    <param name="Name" value="Controlling Flowchart Execution with Boolean Expressions">
+    <param name="Local" value="boolean_expressions.htm">
+    <param name="Name" value="Procedure Calls vs. Functions">
+    <param name="Local" value="Procedure_Calls_vs._Functions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+    <param name="Name" value="Key_Down">
+    <param name="Local" value="Key_Down.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Left_Button">
+    <param name="Name" value="Wait_For_Mouse_Button">
+    <param name="Local" value="Wait_For_Mouse_Button.htm">
+    <param name="Name" value="Get_Mouse_Button">
+    <param name="Local" value="Get_Mouse_Button.htm">
+    <param name="Name" value="Controlling Flowchart Execution with Boolean Expressions">
+    <param name="Local" value="boolean_expressions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+    <param name="Name" value="Mouse_Button_Pressed">
+    <param name="Local" value="Mouse_Button_Pressed.htm">
+    <param name="Name" value="Mouse_Button_Released">
+    <param name="Local" value="Mouse_Button_Released.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Length_Of">
+    <param name="Name" value="Array Operations">
+    <param name="Local" value="Array_Operations.htm">
+    <param name="Name" value="String Operations">
+    <param name="Local" value="String_Operations.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Load_Bitmap">
+    <param name="Name" value="Load_Bitmap">
+    <param name="Local" value="Load_Bitmap.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="MasterConsole">
+    <param name="Name" value="Tutorial - Building a Flowchart">
+    <param name="Local" value="Tutorial_-_Building_a_Flowchart.htm">
+    <param name="Name" value="Using the MasterConsole">
+    <param name="Local" value="Using_the_MasterConsole.htm">
+    <param name="Name" value="Editing Symbols">
+    <param name="Local" value="Editing_Symbols.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Using">
+      <param name="Name" value="Using the MasterConsole">
+      <param name="Local" value="Using_the_MasterConsole.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Clearing">
+      <param name="Name" value="Outputting to a File">
+      <param name="Local" value="Outputting_to_a_File.htm">
+      <param name="Name" value="Using the menu">
+      <param name="Local" value="Using_the_menu.htm">
+      <param name="Name" value="Editing Symbols">
+      <param name="Local" value="Editing_Symbols.htm">
+      <param name="Name" value="Files Overview">
+      <param name="Local" value="Files_Overview.htm">
+      <param name="Name" value="Overview of Raptor">
+      <param name="Local" value="Overview_of_Raptor.htm">
+      <param name="Name" value="Raptor symbols">
+      <param name="Local" value="Raptor_symbols.htm">
+      <param name="Name" value="Clear_Console">
+      <param name="Local" value="Clear_Console.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Menu">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Using">
+      <param name="Name" value="Using the menu">
+      <param name="Local" value="Using_the_menu.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="MOD">
+    <param name="Name" value="Math Operators">
+    <param name="Local" value="math-operators.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Mouse_Button_Down">
+    <param name="Name" value="Mouse_Button_Down">
+    <param name="Local" value="Mouse_Button_Down.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+    <param name="Name" value="Controlling Flowchart Execution with Boolean Expressions">
+    <param name="Local" value="boolean_expressions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Mouse_Button_Pressed">
+    <param name="Name" value="Controlling Flowchart Execution with Boolean Expressions">
+    <param name="Local" value="boolean_expressions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+    <param name="Name" value="Mouse_Button_Pressed">
+    <param name="Local" value="Mouse_Button_Pressed.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Mouse_Button_Released">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+    <param name="Name" value="Mouse_Button_Released">
+    <param name="Local" value="Mouse_Button_Released.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="NOT">
+    <param name="Name" value="Controlling Flowchart Execution with Boolean Expressions">
+    <param name="Local" value="boolean_expressions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Open_Graph_Window">
+    <param name="Name" value="get_max_height">
+    <param name="Local" value="get_max_height.htm">
+    <param name="Name" value="Open_Graph_Window">
+    <param name="Local" value="Open_Graph_Window.htm">
+    <param name="Name" value="Using the MasterConsole">
+    <param name="Local" value="Using_the_MasterConsole.htm">
+    <param name="Name" value="RaptorGraph Overview">
+    <param name="Local" value="RaptorGraph_Overview.htm">
+    <param name="Name" value="get_max_width">
+    <param name="Local" value="get_max_width.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+    <param name="Name" value="Mouse_Button_Pressed">
+    <param name="Local" value="Mouse_Button_Pressed.htm">
+    <param name="Name" value="Mouse_Button_Released">
+    <param name="Local" value="Mouse_Button_Released.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="OR">
+    <param name="Name" value="Controlling Flowchart Execution with Boolean Expressions">
+    <param name="Local" value="boolean_expressions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Output Redirection">
+    <param name="Name" value="Outputting to a File">
+    <param name="Local" value="Outputting_to_a_File.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Output Symbol">
+    <param name="Name" value="String Variables &amp; Assignment">
+    <param name="Local" value="Strings.htm">
+    <param name="Name" value="Editing Symbols">
+    <param name="Local" value="Editing_Symbols.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Page Setup">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="PI">
+    <param name="Name" value="Math (Non-Trigonometric) Functions">
+    <param name="Local" value="math-functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Play_Sound">
+    <param name="Name" value="Sound Operations">
+    <param name="Local" value="Sound_Operations.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Play_Sound_Background">
+    <param name="Name" value="Sound Operations">
+    <param name="Local" value="Sound_Operations.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Play_Sound_Background_Loop">
+    <param name="Name" value="Sound Operations">
+    <param name="Local" value="Sound_Operations.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="POWERMOD">
+    <param name="Name" value="Math (Non-Trigonometric) Functions">
+    <param name="Local" value="math-functions.htm">
+    <param name="Name" value="Procedure Calls vs. Functions">
+    <param name="Local" value="Procedure_Calls_vs._Functions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Print">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Clipboard">
+      <param name="Name" value="Using the menu">
+      <param name="Local" value="Using_the_menu.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Print Preview">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="RANDOM">
+    <param name="Name" value="Math (Non-Trigonometric) Functions">
+    <param name="Local" value="math-functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Random Colors">
+    <param name="Name" value="Generating Random Colors">
+    <param name="Local" value="Generating_Random_Colors.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Generating">
+      <param name="Name" value="Generating Random Colors">
+      <param name="Local" value="Generating_Random_Colors.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Random_color">
+    <param name="Name" value="Generating Random Colors">
+    <param name="Local" value="Generating_Random_Colors.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Random_extended_color">
+    <param name="Name" value="Generating Random Colors">
+    <param name="Local" value="Generating_Random_Colors.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Raptor">
+    <param name="Name" value="Reducing Displayed Chart Size">
+    <param name="Local" value="reducing_displayed_chart_size.htm">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Local" value="trig-functions.htm">
+    <param name="Name" value="String Input">
+    <param name="Local" value="String_Input.htm">
+    <param name="Name" value="Outputting to a File">
+    <param name="Local" value="Outputting_to_a_File.htm">
+    <param name="Name" value="Input Line by Line">
+    <param name="Local" value="Input_Line_by_Line.htm">
+    <param name="Name" value="Variables in Raptor">
+    <param name="Local" value="Variables_in_Raptor.htm">
+    <param name="Name" value="String Variables &amp; Assignment">
+    <param name="Local" value="Strings.htm">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+    <param name="Name" value="Creating a Subchart">
+    <param name="Local" value="Creating_a_Subchart.htm">
+    <param name="Name" value="Using the toolbar">
+    <param name="Local" value="Using_the_toolbar.htm">
+    <param name="Name" value="Math (Non-Trigonometric) Functions">
+    <param name="Local" value="math-functions.htm">
+    <param name="Name" value="Subchart Overview">
+    <param name="Local" value="Subchart_Overview.htm">
+    <param name="Name" value="Sound Operations">
+    <param name="Local" value="Sound_Operations.htm">
+    <param name="Name" value="Inputting from a File">
+    <param name="Local" value="Inputting_from_a_File.htm">
+    <param name="Name" value="Colors">
+    <param name="Local" value="Colors.htm">
+    <param name="Name" value="Names in Raptor">
+    <param name="Local" value="Names_in_Raptor.htm">
+    <param name="Name" value="Array Overview">
+    <param name="Local" value="Array_Overview.htm">
+    <param name="Name" value="Introducing Raptor">
+    <param name="Local" value="Introducing_Raptor.htm">
+    <param name="Name" value="Math Operators">
+    <param name="Local" value="math-operators.htm">
+    <param name="Name" value="Overview of Raptor">
+    <param name="Local" value="Overview_of_Raptor.htm">
+    <param name="Name" value="Raptor symbols">
+    <param name="Local" value="Raptor_symbols.htm">
+    <param name="Name" value="Calling Subcharts">
+    <param name="Local" value="Calling_Subcharts.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Introducing">
+      <param name="Name" value="Introducing Raptor">
+      <param name="Local" value="Introducing_Raptor.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Overview">
+      <param name="Name" value="Overview of Raptor">
+      <param name="Local" value="Overview_of_Raptor.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="RaptorGraph">
+    <param name="Name" value="About Raptorgraph">
+    <param name="Local" value="About_Raptorgraph.htm">
+    <param name="Name" value="Using the MasterConsole">
+    <param name="Local" value="Using_the_MasterConsole.htm">
+    <param name="Name" value="RaptorGraph Overview">
+    <param name="Local" value="RaptorGraph_Overview.htm">
+    <param name="Name" value="Colors">
+    <param name="Local" value="Colors.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Redirect_Input">
+    <param name="Name" value="Inputting from a File">
+    <param name="Local" value="Inputting_from_a_File.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Redirect_Output">
+    <param name="Name" value="Outputting to a File">
+    <param name="Local" value="Outputting_to_a_File.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+    <param name="FrameName" value="_blank">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Redirecting">
+    <param name="Name" value="Outputting to a File">
+    <param name="Local" value="Outputting_to_a_File.htm">
+    <param name="Name" value="Inputting from a File">
+    <param name="Local" value="Inputting_from_a_File.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Output">
+      <param name="Name" value="Outputting to a File">
+      <param name="Local" value="Outputting_to_a_File.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Input">
+      <param name="Name" value="Inputting from a File">
+      <param name="Local" value="Inputting_from_a_File.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Reducing">
+    <param name="Name" value="Reducing Displayed Chart Size">
+    <param name="Local" value="reducing_displayed_chart_size.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Displayed Chart Size">
+      <param name="Name" value="Reducing Displayed Chart Size">
+      <param name="Local" value="reducing_displayed_chart_size.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="REM">
+    <param name="Name" value="Math Operators">
+    <param name="Local" value="math-operators.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Run menu">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Save As">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Scale menu">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Select All">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Set_Font_Size">
+    <param name="Name" value="Set_Font_Size">
+    <param name="Local" value="Set_Font_Size.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Set_Window_Title">
+    <param name="Name" value="Set_Window_Title">
+    <param name="Local" value="Set_Window_Title.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="SIN">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Local" value="trig-functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Sound Operations">
+    <param name="Name" value="Sound Operations">
+    <param name="Local" value="Sound_Operations.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Speed Slider">
+    <param name="Name" value="Executing a flowchart">
+    <param name="Local" value="Executing_a_flowchart.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Sqrt">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Local" value="trig-functions.htm">
+    <param name="Name" value="Math (Non-Trigonometric) Functions">
+    <param name="Local" value="math-functions.htm">
+    <param name="Name" value="Procedure Calls vs. Functions">
+    <param name="Local" value="Procedure_Calls_vs._Functions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="String">
+    <param name="Name" value="String Input">
+    <param name="Local" value="String_Input.htm">
+    <param name="Name" value="String Variables &amp; Assignment">
+    <param name="Local" value="Strings.htm">
+    <param name="Name" value="String Comparisons">
+    <param name="Local" value="String_Comparisons.htm">
+    <param name="Name" value="String Operations">
+    <param name="Local" value="String_Operations.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Input">
+      <param name="Name" value="String Input">
+      <param name="Local" value="String_Input.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Variables">
+      <param name="Name" value="String Variables &amp; Assignment">
+      <param name="Local" value="Strings.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Comparisons">
+      <param name="Name" value="String Comparisons">
+      <param name="Local" value="String_Comparisons.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Operations">
+      <param name="Name" value="String Operations">
+      <param name="Local" value="String_Operations.htm">
+      <param name="Name" value="Reference">
+      <param name="Local" value="Raptor_Functions.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Subchart">
+    <param name="Name" value="Creating a Subchart">
+    <param name="Local" value="Creating_a_Subchart.htm">
+    <param name="Name" value="Subchart Overview">
+    <param name="Local" value="Subchart_Overview.htm">
+    <param name="Name" value="Names in Raptor">
+    <param name="Local" value="Names_in_Raptor.htm">
+    <param name="Name" value="Raptor workspace">
+    <param name="Local" value="Raptor_workspace.htm">
+    <param name="Name" value="Calling Subcharts">
+    <param name="Local" value="Calling_Subcharts.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Adding">
+      <param name="Name" value="Creating a Subchart">
+      <param name="Local" value="Creating_a_Subchart.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Deleting">
+      <param name="Name" value="Creating a Subchart">
+      <param name="Local" value="Creating_a_Subchart.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Renaming">
+      <param name="Name" value="Creating a Subchart">
+      <param name="Local" value="Creating_a_Subchart.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Creating">
+      <param name="Name" value="Creating a Subchart">
+      <param name="Local" value="Creating_a_Subchart.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Calling">
+      <param name="Name" value="Calling Subcharts">
+      <param name="Local" value="Calling_Subcharts.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Overview">
+      <param name="Name" value="Subchart Overview">
+      <param name="Local" value="Subchart_Overview.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Symbol Window">
+    <param name="Name" value="Raptor symbols">
+    <param name="Local" value="Raptor_symbols.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Symbols">
+    <param name="Name" value="Editing Symbols">
+    <param name="Local" value="Editing_Symbols.htm">
+    <param name="Name" value="Overview of Raptor">
+    <param name="Local" value="Overview_of_Raptor.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Editing">
+      <param name="Name" value="Editing Symbols">
+      <param name="Local" value="Editing_Symbols.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="TAN">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Local" value="trig-functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Toolbar">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Using">
+      <param name="Name" value="Using the toolbar">
+      <param name="Local" value="Using_the_toolbar.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Tooltip">
+    <param name="Name" value="Using the toolbar">
+    <param name="Local" value="Using_the_toolbar.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="display">
+      <param name="Name" value="Using the toolbar">
+      <param name="Local" value="Using_the_toolbar.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Name" value="Trigonometric Functions">
+    <param name="Local" value="trig-functions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Tutorial">
+    <param name="Name" value="Tutorial - Building a Flowchart">
+    <param name="Local" value="Tutorial_-_Building_a_Flowchart.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Two-Dimensional Arrays">
+    <param name="Name" value="Creating Arrays">
+    <param name="Local" value="Creating_Arrays.htm">
+    <param name="Name" value="Two-Dimensional Arrays">
+    <param name="Local" value="Two-Dimensional_Arrays.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Creating">
+      <param name="Name" value="Creating Arrays">
+      <param name="Local" value="Creating_Arrays.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Processing">
+      <param name="Name" value="Two-Dimensional Arrays">
+      <param name="Local" value="Two-Dimensional_Arrays.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Unary Minus">
+    <param name="Name" value="Math Operators">
+    <param name="Local" value="math-operators.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Undo">
+    <param name="Name" value="Building a flowchart">
+    <param name="Local" value="Building_a_flowchart.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Variables">
+    <param name="Name" value="Variables in Raptor">
+    <param name="Local" value="Variables_in_Raptor.htm">
+    <param name="Name" value="String Variables &amp; Assignment">
+    <param name="Local" value="Strings.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Type &amp; Structure">
+      <param name="Name" value="Variables in Raptor">
+      <param name="Local" value="Variables_in_Raptor.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="String">
+      <param name="Name" value="String Variables &amp; Assignment">
+      <param name="Local" value="Strings.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="View menu">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Wait_For_Key">
+    <param name="Name" value="Wait_For_Key">
+    <param name="Local" value="Wait_For_Key.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Wait_For_Mouse_Button">
+    <param name="Name" value="Wait_For_Mouse_Button">
+    <param name="Local" value="Wait_For_Mouse_Button.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+    <param name="Name" value="Mouse_Button_Pressed">
+    <param name="Local" value="Mouse_Button_Pressed.htm">
+    <param name="Name" value="Mouse_Button_Released">
+    <param name="Local" value="Mouse_Button_Released.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Watch Window">
+    <param name="Name" value="Executing a flowchart">
+    <param name="Local" value="Executing_a_flowchart.htm">
+    <param name="Name" value="Watch window">
+    <param name="Local" value="Watch_window.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Window menu">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Workspace">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+    <param name="Name" value="Raptor workspace">
+    <param name="Local" value="Raptor_workspace.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Workspace window">
+    <param name="Name" value="Using the menu">
+    <param name="Local" value="Using_the_menu.htm">
+    <param name="Name" value="Raptor workspace">
+    <param name="Local" value="Raptor_workspace.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="XOR">
+    <param name="Name" value="Controlling Flowchart Execution with Boolean Expressions">
+    <param name="Local" value="boolean_expressions.htm">
+    <param name="Name" value="Reference">
+    <param name="Local" value="Raptor_Functions.htm">
+  </object>
+</ul>
+</html>

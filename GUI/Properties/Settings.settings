@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="NClass.GUI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WindowPosition" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">100, 100</Value>
+    </Setting>
+    <Setting Name="WindowSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">770, 550</Value>
+    </Setting>
+    <Setting Name="IsWindowMaximized" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="StandardToolBarLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">3, 24</Value>
+    </Setting>
+    <Setting Name="ElementsToolBarLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">257, 24</Value>
+    </Setting>
+    <Setting Name="TypeDetailsToolBarLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">3, 49</Value>
+    </Setting>
+    <Setting Name="StandardToolBarPosition" Type="System.Windows.Forms.DockStyle" Scope="User">
+      <Value Profile="(Default)">Top</Value>
+    </Setting>
+    <Setting Name="ElementsToolBarPosition" Type="System.Windows.Forms.DockStyle" Scope="User">
+      <Value Profile="(Default)">Top</Value>
+    </Setting>
+    <Setting Name="TypeDetailsToolBarPosition" Type="System.Windows.Forms.DockStyle" Scope="User">
+      <Value Profile="(Default)">Top</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

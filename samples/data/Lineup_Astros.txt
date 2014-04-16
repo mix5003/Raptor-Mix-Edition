@@ -1,0 +1,55 @@
+W Taveras
+1
+4
+5
+1
+C Biggio
+3
+3
+3
+1
+L Berkman
+4
+4
+3
+0
+M Ensberg
+4
+4
+3
+1
+P Wilson
+4
+3
+3
+1
+J Lane
+3
+3
+3
+1
+M Lamb
+3
+3
+2
+-1
+A Everett
+2
+3
+4
+1
+B Ausmus
+1
+2
+3
+1
+R Oswalt
+4
+5
+5
+1
+4
+1
+1
+2
+4

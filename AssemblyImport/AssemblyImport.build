@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<project name="AssemblyImport" default="compile">
+	<target name="compile">
+		<csc target="library" output="${build.dir}/plugins/AssemblyImport.dll" optimize="true" noconfig="true">
+			<sources>
+				<include name="**/*.cs" />
+			</sources>
+			<references>
+				<include name="System.dll" />
+				<include name="System.Xml.dll" />
+				<include name="System.Data.dll" />
+				<include name="System.Drawing.dll" />
+				<include name="System.Windows.Forms.dll" />
+				<include name="${build.dir}/NClass.Core.dll" />
+				<include name="${build.dir}/NClass.Translations.dll" />
+			</references>
+		</csc>
+	</target>
+</project>

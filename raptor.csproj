@@ -1,0 +1,736 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C172591C-E104-4537-9753-9C2CF48D8700}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>raptor</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>raptor</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CodeProjectComBigIntegerPackage, Version=1.0.1348.26246, Culture=neutral, PublicKeyToken=ab3cd1c55739f455, processorArchitecture=MSIL" />
+    <Reference Include="interpreter, Version=0.0.0.0, Culture=neutral" />
+    <Reference Include="mgnat, Version=3.2.0.0, Culture=neutral, PublicKeyToken=713d0175fa8fbef8, processorArchitecture=MSIL" />
+    <Reference Include="mgnatcs, Version=3.2.0.0, Culture=neutral, PublicKeyToken=713d0175fa8fbef8, processorArchitecture=MSIL" />
+    <Reference Include="microsoft.Ink, Version=1.7.2600.2180, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\microsoft.Ink.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugins_PlaySound, Version=1.0.1433.27897, Culture=neutral" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ada_runtime.adb" />
+    <None Include="ada_runtime.ads" />
+    <None Include="app.config" />
+    <None Include="generate_interface.ads" />
+    <None Include="generate_interface_oo.ads" />
+    <None Include="Help\#BSSC" />
+    <None Include="Help\calls_v_functions.rap" />
+    <None Include="Help\calls_v_functions.rap.backup0" />
+    <None Include="Help\calls_v_functions.rap.backup1" />
+    <None Include="Help\freeze_demo.rap" />
+    <None Include="Help\raptorhelp.akw" />
+    <None Include="Help\raptorhelp.ali" />
+    <None Include="Help\raptorhelp.BRS" />
+    <None Include="Help\raptorhelp.chm" />
+    <None Include="Help\raptorhelp.doc" />
+    <None Include="Help\raptorhelp.err" />
+    <None Include="Help\raptorhelp.hhc" />
+    <None Include="Help\raptorhelp.hhc_backup" />
+    <None Include="Help\raptorhelp.hhk" />
+    <None Include="Help\raptorhelp.hhk_backup" />
+    <None Include="Help\raptorhelp.hhp" />
+    <None Include="Help\RAPTORHELP.HLP" />
+    <None Include="Help\raptorhelp.hpj" />
+    <None Include="Help\raptorhelp.hpr" />
+    <None Include="Help\raptorhelp.hpt" />
+    <None Include="Help\raptorhelp.kkw" />
+    <None Include="Help\raptorhelp.mpj" />
+    <None Include="Help\raptorhelp.ppf" />
+    <None Include="Help\raptorhelp.qwm" />
+    <None Include="Help\raptorhelp.rbh" />
+    <None Include="Help\raptorhelp.rtf" />
+    <None Include="Help\tutorial1.rap" />
+    <None Include="Help\tutorial2.rap" />
+    <None Include="Help\tutorial3.rap" />
+    <None Include="Help\x.bat" />
+    <None Include="interpreter.adb" />
+    <None Include="interpreter.ads" />
+    <None Include="lexer.adb" />
+    <None Include="lexer.ads" />
+    <None Include="numbers.adb" />
+    <None Include="numbers.ads" />
+    <None Include="parser.adb" />
+    <None Include="parser.ads" />
+    <None Include="parse_tree.adb" />
+    <None Include="parse_tree.ads" />
+    <None Include="pub.key" />
+    <None Include="Raptor.chm" />
+    <None Include="raptor_files.adb" />
+    <None Include="raptor_files.ads" />
+    <None Include="Reports.xls" />
+    <None Include="suggestions.adb" />
+    <None Include="suggestions.ads" />
+    <Content Include="App.ico" />
+    <Content Include="class.png" />
+    <Content Include="CodeProjectComBigIntegerPackage.dll" />
+    <Content Include="COMgraph.dll" />
+    <Content Include="composition.png" />
+    <Content Include="COPY.BMP" />
+    <Content Include="CUT.BMP" />
+    <Content Include="gpg.exe" />
+    <None Include="GUI\Resources\aggregation1.png" />
+    <None Include="GUI\Resources\align_bottom1.png" />
+    <None Include="GUI\Resources\align_horizontal1.png" />
+    <None Include="GUI\Resources\align_left1.png" />
+    <None Include="GUI\Resources\align_right1.png" />
+    <None Include="GUI\Resources\align_top1.png" />
+    <None Include="GUI\Resources\align_vertical1.png" />
+    <None Include="GUI\Resources\association1.png" />
+    <None Include="GUI\Resources\auto_layout1.png" />
+    <None Include="GUI\Resources\auto_zoom1.png" />
+    <None Include="GUI\Resources\class1.png" />
+    <None Include="GUI\Resources\code_generator1.png" />
+    <None Include="GUI\Resources\collapse_all1.png" />
+    <None Include="GUI\Resources\comment1.png" />
+    <None Include="GUI\Resources\composition1.png" />
+    <None Include="GUI\Resources\cut1.png" />
+    <None Include="GUI\Resources\delegate1.png" />
+    <None Include="GUI\Resources\delete1.png" />
+    <None Include="GUI\Resources\dependency1.png" />
+    <None Include="GUI\Resources\diagram_size1.png" />
+    <None Include="GUI\Resources\enum1.png" />
+    <None Include="GUI\Resources\expand_all1.png" />
+    <None Include="GUI\Resources\format1.png" />
+    <None Include="GUI\Resources\generalization1.png" />
+    <None Include="GUI\Resources\help1.png" />
+    <None Include="GUI\Resources\image1.png" />
+    <None Include="GUI\Resources\interface1.png" />
+    <None Include="GUI\Resources\mail1.png" />
+    <None Include="GUI\Resources\nesting1.png" />
+    <None Include="GUI\Resources\new_document1.png" />
+    <None Include="GUI\Resources\new_entity1.png" />
+    <None Include="GUI\Resources\note1.png" />
+    <None Include="GUI\Resources\open1.png" />
+    <None Include="GUI\Resources\options1.png" />
+    <None Include="GUI\Resources\paste1.png" />
+    <None Include="GUI\Resources\print1.png" />
+    <None Include="GUI\Resources\print_preview1.png" />
+    <None Include="GUI\Resources\print_setup1.png" />
+    <None Include="GUI\Resources\realization1.png" />
+    <None Include="GUI\Resources\redo1.png" />
+    <None Include="GUI\Resources\save1.png" />
+    <None Include="GUI\Resources\search_web1.png" />
+    <None Include="GUI\Resources\struct1.png" />
+    <None Include="GUI\Resources\undo1.png" />
+    <None Include="GUI\Resources\web1.png" />
+    <None Include="GUI\Resources\zoom_in1.png" />
+    <None Include="GUI\Resources\zoom_out1.png" />
+    <Content Include="Help\About_Raptorgraph.htm" />
+    <Content Include="Help\ARC2.BMP" />
+    <Content Include="Help\ARC3.BMP" />
+    <Content Include="Help\array_2d_sum.bmp" />
+    <Content Include="Help\array_average.bmp" />
+    <Content Include="Help\Array_Operations.htm" />
+    <Content Include="Help\Array_Overview.htm" />
+    <Content Include="Help\boolean_expressions.htm" />
+    <Content Include="Help\Building_a_flowchart.htm" />
+    <Content Include="Help\BUTTON_EXECUTE.BMP" />
+    <Content Include="Help\Calling_Subcharts.htm" />
+    <Content Include="Help\calls_v_functions_1.bmp" />
+    <Content Include="Help\calls_v_functions_2.bmp" />
+    <Content Include="Help\calls_v_functions_3.bmp" />
+    <Content Include="Help\calls_v_functions_4.bmp" />
+    <Content Include="Help\calls_v_functions_5.bmp" />
+    <Content Include="Help\calls_v_functions_6.bmp" />
+    <Content Include="Help\calls_v_functions_7.bmp" />
+    <Content Include="Help\CIRCLE.BMP" />
+    <Content Include="Help\Clear_Console.htm" />
+    <Content Include="Help\Clear_Window.htm" />
+    <Content Include="Help\Closest_Color.htm" />
+    <Content Include="Help\Close_Graph_Window.htm" />
+    <Content Include="Help\COLLAPSED.BMP" />
+    <Content Include="Help\Colors.htm" />
+    <Content Include="Help\copy_symbol.bmp" />
+    <Content Include="Help\Creating_Arrays.htm" />
+    <Content Include="Help\Creating_a_Subchart.htm" />
+    <Content Include="Help\cut_symbol.bmp" />
+    <Content Include="Help\default.css" />
+    <Content Include="Help\Delay_For.htm" />
+    <Content Include="Help\display_number.htm" />
+    <Content Include="Help\Display_Text.htm" />
+    <Content Include="Help\Draw_Arc.htm" />
+    <Content Include="Help\Draw_Box.htm" />
+    <Content Include="Help\Draw_Circle.htm" />
+    <Content Include="Help\Draw_Ellipse.htm" />
+    <Content Include="Help\Draw_Line.htm" />
+    <Content Include="Help\Editing_Symbols.htm" />
+    <Content Include="Help\EDIT_IF_CONTROL.BMP" />
+    <Content Include="Help\EDIT_INPUT_SYMBOL.BMP" />
+    <Content Include="Help\EDIT_LOOPL.BMP" />
+    <Content Include="Help\EDIT_MENU.BMP" />
+    <Content Include="Help\EDIT_OUTPUT.BMP" />
+    <Content Include="Help\EDIT_RECTANGLE.BMP" />
+    <Content Include="Help\eHlpDhtm.js" />
+    <Content Include="Help\ELLIPSE.BMP" />
+    <Content Include="Help\execute_symbol.bmp" />
+    <Content Include="Help\EXECUTING.BMP" />
+    <Content Include="Help\Executing_a_flowchart.htm" />
+    <Content Include="Help\EXECUTION-IN-GREEN.BMP" />
+    <Content Include="Help\Files_Overview.htm" />
+    <Content Include="Help\file_end_of_input.bmp" />
+    <Content Include="Help\file_input.bmp" />
+    <Content Include="Help\FILE_MENU.BMP" />
+    <Content Include="Help\file_output.bmp" />
+    <Content Include="Help\FINGER_POINTER.BMP" />
+    <Content Include="Help\Flood_Fill.htm" />
+    <Content Include="Help\freeze_demo.bmp" />
+    <Content Include="Help\Freeze_Graph_Window.htm" />
+    <Content Include="Help\FULL_SCREEN1.BMP" />
+    <Content Include="Help\Generating_Random_Colors.htm" />
+    <Content Include="Help\GET_FONT_HEIGHT.BMP" />
+    <Content Include="Help\Get_Font_Height.htm" />
+    <Content Include="Help\GET_FONT_WIDTH.BMP" />
+    <Content Include="Help\Get_Font_Width.htm" />
+    <Content Include="Help\GET_KEY.BMP" />
+    <Content Include="Help\Get_Key.htm" />
+    <Content Include="Help\GET_KEY_STRING.BMP" />
+    <Content Include="Help\Get_Key_String.htm" />
+    <Content Include="Help\GET_MAX_HEIGHT.BMP" />
+    <Content Include="Help\get_max_height.htm" />
+    <Content Include="Help\GET_MAX_WIDTH.BMP" />
+    <Content Include="Help\get_max_width.htm" />
+    <Content Include="Help\Get_Mouse_Button.htm" />
+    <Content Include="Help\GET_MOUSE_X.BMP" />
+    <Content Include="Help\Get_Mouse_X.htm" />
+    <Content Include="Help\GET_MOUSE_Y.BMP" />
+    <Content Include="Help\Get_Mouse_Y.htm" />
+    <Content Include="Help\Get_Pixel.htm" />
+    <Content Include="Help\GET_WINDOW_HEIGHT.BMP" />
+    <Content Include="Help\Get_Window_Height.htm" />
+    <Content Include="Help\GET_WINDOW_WIDTH.BMP" />
+    <Content Include="Help\get_window_width.htm" />
+    <Content Include="Help\HELP_MENU.BMP" />
+    <Content Include="Help\HtmlHelp.css" />
+    <Content Include="Help\Inputting_from_a_File.htm" />
+    <Content Include="Help\Input_Line_by_Line.htm" />
+    <Content Include="Help\Introducing_Raptor.htm" />
+    <Content Include="Help\IS_OPEN.BMP" />
+    <Content Include="Help\is_open.htm" />
+    <Content Include="Help\KEY_HIT.BMP" />
+    <Content Include="Help\Key_Hit.htm" />
+    <Content Include="Help\LASSO_SELECT.BMP" />
+    <Content Include="Help\LOOP_BEFORE_COLLAPSE.BMP" />
+    <Content Include="Help\LOOP_COLLAPSED.BMP" />
+    <Content Include="Help\MASTERCONSOLE.BMP" />
+    <Content Include="Help\math-functions.htm" />
+    <Content Include="Help\math-operators.htm" />
+    <Content Include="Help\MOUSE_BUTTON_PRESSED.BMP" />
+    <Content Include="Help\Mouse_Button_Pressed.htm" />
+    <Content Include="Help\MOUSE_BUTTON_RELEASED.BMP" />
+    <Content Include="Help\Mouse_Button_Released.htm" />
+    <Content Include="Help\MS_Help.css" />
+    <Content Include="Help\Names_in_Raptor.htm" />
+    <Content Include="Help\new_symbol.bmp" />
+    <Content Include="Help\NOT_COLLAPSED.BMP" />
+    <Content Include="Help\Open_Graph_Window.htm" />
+    <Content Include="Help\open_symbol.bmp" />
+    <Content Include="Help\Outputting_to_a_File.htm" />
+    <Content Include="Help\Overview_of_Raptor.htm" />
+    <Content Include="Help\paste_symbol.bmp" />
+    <Content Include="Help\pause_symbol.bmp" />
+    <Content Include="Help\POP-UP_MENU.BMP" />
+    <Content Include="Help\print_symbol.bmp" />
+    <Content Include="Help\Procedure_Calls_vs._Functions.htm" />
+    <Content Include="Help\Put_Pixel.htm" />
+    <Content Include="Help\radians.bmp" />
+    <Content Include="Help\raptorgraph_coordinates.bmp" />
+    <Content Include="Help\RaptorGraph_Overview.htm" />
+    <Content Include="Help\Raptor_Functions.htm" />
+    <Content Include="Help\Raptor_symbols.htm" />
+    <Content Include="Help\Raptor_workspace.htm" />
+    <Content Include="Help\Readme.txt" />
+    <Content Include="Help\redo_symbol.bmp" />
+    <Content Include="Help\reducing_displayed_chart_size.htm" />
+    <Content Include="Help\RUN_MENU.BMP" />
+    <Content Include="Help\save_symbol.bmp" />
+    <Content Include="Help\scale_value_from_toolbar.bmp" />
+    <Content Include="Help\SELECT_BEFORE_COLLAPSE.BMP" />
+    <Content Include="Help\SELECT_COLLAPSED.BMP" />
+    <Content Include="Help\Set_Window_Title.htm" />
+    <Content Include="Help\slider_from_toolbar.bmp" />
+    <Content Include="Help\Sound_Operations.htm" />
+    <Content Include="Help\Spacing_for_Readability.htm" />
+    <Content Include="Help\START-END.BMP" />
+    <Content Include="Help\steptonextshape_symbol.bmp" />
+    <Content Include="Help\stop_symbol.bmp" />
+    <Content Include="Help\strings-assign-ex-1.bmp" />
+    <Content Include="Help\strings-assign-ex-2.bmp" />
+    <Content Include="Help\strings-assign-ex-3.bmp" />
+    <Content Include="Help\strings-display-text-ex.bmp" />
+    <Content Include="Help\strings-put-ex.bmp" />
+    <Content Include="Help\Strings.htm" />
+    <Content Include="Help\String_Comparisons.htm" />
+    <Content Include="Help\String_Input.htm" />
+    <Content Include="Help\String_Operations.htm" />
+    <Content Include="Help\Subchart_Overview.htm" />
+    <Content Include="Help\SYMBOLS.BMP" />
+    <Content Include="Help\TOOLBAR.BMP" />
+    <Content Include="Help\TOP_MENU_OPTIONS.BMP" />
+    <Content Include="Help\trig-functions.htm" />
+    <Content Include="Help\TUTORIAL1.BMP" />
+    <Content Include="Help\TUTORIAL2.BMP" />
+    <Content Include="Help\TUTORIAL3.BMP" />
+    <Content Include="Help\Tutorial_-_Building_a_Flowchart.htm" />
+    <Content Include="Help\Two-Dimensional_Arrays.htm" />
+    <Content Include="Help\Type_Queries.htm" />
+    <Content Include="Help\undo_symbol.bmp" />
+    <Content Include="Help\Using_the_MasterConsole.htm" />
+    <Content Include="Help\Using_the_menu.htm" />
+    <Content Include="Help\Using_the_toolbar.htm" />
+    <Content Include="Help\Variables_in_Raptor.htm" />
+    <Content Include="Help\VELOC.BMP" />
+    <Content Include="Help\VIEW_MENU.BMP" />
+    <Content Include="Help\w95help.css" />
+    <Content Include="Help\Wait_For_Key.htm" />
+    <Content Include="Help\Wait_For_Mouse_Button.htm" />
+    <Content Include="Help\Watch_Window with 2D Array.bmp" />
+    <Content Include="Help\WATCH_WINDOW.BMP" />
+    <Content Include="Help\Watch_window.htm" />
+    <Content Include="Help\WINDOW_MENU.BMP" />
+    <Content Include="iconv.dll" />
+    <Content Include="Interop.COMGRAPHLib.dll" />
+    <Content Include="interpreter.dll" />
+    <Content Include="List of functions.htm" />
+    <Content Include="mgnat.dll" />
+    <Content Include="mgnatcs.dll" />
+    <Content Include="NEW.BMP" />
+    <Content Include="OPEN.BMP" />
+    <Content Include="PASTE.BMP" />
+    <Content Include="Playback_Status_Next.bmp" />
+    <Content Include="Playback_Status_Pause.bmp" />
+    <Content Include="Playback_Status_Play.bmp" />
+    <Content Include="Playback_Status_Stop.bmp" />
+    <Content Include="Plugins_PlaySound.dll" />
+    <Content Include="plugins_powermod.dll" />
+    <Content Include="PRINT.BMP" />
+    <Content Include="REDO.BMP" />
+    <Content Include="redo_gray.bmp" />
+    <Content Include="SAVE.BMP" />
+    <Content Include="struct.png" />
+    <Content Include="UNDO.BMP" />
+    <Content Include="UNDO_gray.bmp" />
+    <Content Include="VELOC.bmp" />
+    <Content Include="VmDetectLibrary.dll" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Assignment_Dlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autoupdate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Balloon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BARTPEFileOpenList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BARTPEFileOpenList.Designer.cs">
+      <DependentUpon>BARTPEFileOpenList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BARTPEFileSaveList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BARTPEFileSaveList.Designer.cs">
+      <DependentUpon>BARTPEFileSaveList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BinaryComponent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Buffered.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CallStack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Call_Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ClassTabPage.Designer.cs">
+      <DependentUpon>ClassTabPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClipboardMultiplatform.cs" />
+    <Compile Include="Clipboard_Data.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommentBox.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Comment_Dlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Compile_Helpers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Component.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Constructors.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Control_Dlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Return_Dlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmergencyDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmergencyDialog.Designer.cs">
+      <DependentUpon>EmergencyDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilesListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Generate_IL.cs" />
+    <None Include="Generate_Interface.cs" />
+    <Compile Include="Generators.cs" />
+    <Compile Include="MD5Helper.cs" />
+    <Compile Include="Oval_Procedure.cs" />
+    <Compile Include="Oval_Return.cs" />
+    <Compile Include="ParseHelpers.cs" />
+    <Compile Include="Procedure_name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog_Helpers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IF_Control.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Input_Dlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logging_info.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Loop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MasterConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MRU.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Output_Dlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oval.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Parallelogram.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PensBrushes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plugins.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Procedure_Chart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PromptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rectangle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Registry_Settings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runtime.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Step_Helpers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StopSign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Subchart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Subchart_name.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmitServerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMLDiagram.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UMLDiagram.Designer.cs">
+      <DependentUpon>UMLDiagram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UMLupdater.cs" />
+    <Compile Include="Undo_Stack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValueArrays.cs" />
+    <Compile Include="VerifyTestingEnvironment.cs" />
+    <Compile Include="Visual_Flow_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Assignment_Dlg.resx">
+      <DependentUpon>Assignment_Dlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BARTPEFileOpenList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BARTPEFileOpenList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BARTPEFileSaveList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BARTPEFileSaveList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buffered.resx">
+      <DependentUpon>Buffered.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Call_Dialog.resx">
+      <DependentUpon>Call_Dialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassTabPage.resx">
+      <DependentUpon>ClassTabPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comment_Dlg.resx">
+      <DependentUpon>Comment_Dlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control_Dlg.resx">
+      <DependentUpon>Control_Dlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmergencyDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EmergencyDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procedure_name.resx">
+      <DependentUpon>Procedure_name.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Input_Dlg.resx">
+      <DependentUpon>Input_Dlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterConsole.resx">
+      <DependentUpon>MasterConsole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Output_Dlg.resx">
+      <DependentUpon>Output_Dlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PromptForm.resx">
+      <DependentUpon>PromptForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Return_Dlg.resx">
+      <DependentUpon>Return_Dlg.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subchart.resx">
+      <DependentUpon>Subchart.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subchart_name.resx">
+      <DependentUpon>Subchart_name.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmitServerForm.resx">
+      <DependentUpon>SubmitServerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMLDiagram.resx">
+      <DependentUpon>UMLDiagram.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visual_Flow_Form.resx">
+      <DependentUpon>Visual_Flow_Form.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CodeGenerator\CodeGenerator.csproj">
+      <Project>{BE60D62D-E757-44F4-A342-5388742F5986}</Project>
+      <Name>CodeGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="Core\Core.csproj">
+      <Project>{8CF10505-3C2E-4E45-AB90-21613237B412}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="CSharp\CSharp.csproj">
+      <Project>{755B2714-62DB-419C-9097-49C08439E7E3}</Project>
+      <Name>CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="dotnetgraph\dotnetgraph.csproj">
+      <Project>{FE3C9A65-16AC-4559-A0D4-0673A97AC90D}</Project>
+      <Name>dotnetgraph</Name>
+    </ProjectReference>
+    <ProjectReference Include="GeneratorAda\GeneratorAda.csproj">
+      <Project>{66B48E78-7F86-4C22-929D-635164C88816}</Project>
+      <Name>GeneratorAda</Name>
+    </ProjectReference>
+    <ProjectReference Include="GUI.Diagram\GUI.Diagram.csproj">
+      <Project>{F52A7548-E60A-485B-9C84-1D2871416DB7}</Project>
+      <Name>GUI.Diagram</Name>
+    </ProjectReference>
+    <ProjectReference Include="GUI\GUI.csproj">
+      <Project>{A2918CE1-6894-4FC9-A864-4651769D0274}</Project>
+      <Name>GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Java\Java.csproj">
+      <Project>{255565B1-3246-4184-9F71-19178FE0BA65}</Project>
+      <Name>Java</Name>
+    </ProjectReference>
+    <ProjectReference Include="Translations\Translations.csproj">
+      <Project>{B3B7D798-3D52-47F0-B1A7-A91BC5FE184F}</Project>
+      <Name>Translations</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

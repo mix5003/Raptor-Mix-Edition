@@ -1,0 +1,57 @@
+J Rollins
+2
+4
+5
+0
+A Rowand
+3
+3
+4
+1
+B Abreu
+4
+4
+4
+-1
+C Utley
+3
+3
+4
+1
+P Burrell
+4
+3
+2
+1
+R Howard
+5
+3
+2
+-1
+D Delucci
+4
+2
+4
+-1
+M Lieberthal
+3
+3
+2
+1
+D Bell
+2
+2
+1
+1
+J Lieber
+3
+3
+5
+1
+6
+3
+3
+4
+4
+4
+6

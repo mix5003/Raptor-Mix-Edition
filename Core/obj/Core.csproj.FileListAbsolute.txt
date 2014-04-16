@@ -1,0 +1,11 @@
+C:\nclass\src\Core\bin\Debug\NClass.Core.dll
+C:\nclass\src\Core\bin\Debug\NClass.Core.pdb
+C:\nclass\src\Core\bin\Debug\NClass.Translations.dll
+C:\nclass\src\Core\bin\Debug\NClass.Translations.pdb
+C:\nclass\src\Core\bin\Debug\es\NClass.Translations.resources.dll
+C:\nclass\src\Core\bin\Debug\hu\NClass.Translations.resources.dll
+C:\nclass\src\Core\bin\Debug\pt-BR\NClass.Translations.resources.dll
+C:\nclass\src\Core\bin\Debug\ru\NClass.Translations.resources.dll
+C:\nclass\src\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\nclass\src\Core\obj\Debug\NClass.Core.dll
+C:\nclass\src\Core\obj\Debug\NClass.Core.pdb

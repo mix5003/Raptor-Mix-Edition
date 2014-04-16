@@ -1,0 +1,310 @@
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>copy c:\d\rsrch\a#\msil2ada\msil2ada\bin\debug\msil2ada.exe bin\release 
+        1 file(s) copied.
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>copy c:\d\rsrch\a#\msil2ada\msil2ada\bin\debug\msil2ada*.dll bin\release 
+c:\d\rsrch\a#\msil2ada\msil2ada\bin\debug\msil2ada_output.dll
+        1 file(s) copied.
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>cd bin\release 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor\bin\Release>.\msil2ada raptor.exe 
+Processing: raptor, Version=4.0.0.9, Culture=neutral, PublicKeyToken=null
+writing: raptor.ads
+writing: raptor-UserControl1.ads
+writing: raptor-Comment_Dlg.ads
+writing: raptor-UMLupdater.ads
+writing: raptor-Compile_Helpers.ads
+writing: raptor-Balloon.ads
+writing: raptor-Balloon-Corner.ads
+writing: raptor-BARTPEFileOpenList.ads
+writing: raptor-Undo_Stack.ads
+writing: raptor-Undo_Stack-Action_Kind.ads
+writing: raptor-Undo_Stack-Action.ads
+writing: raptor-Input_Dlg.ads
+writing: raptor-Runtime_Helpers.ads
+writing: raptor-Value_Array.ads
+writing: raptor-Value_2D_Array.ads
+writing: raptor-Generate_IL.ads
+writing: raptor-BARTPEFileSaveList.ads
+writing: raptor-Visual_Flow_Form.ads
+writing: raptor-Visual_Flow_Form-Start_Delegate_Type.ads
+writing: raptor-Visual_Flow_Form-Set_Current_Tab_Delegate_Type.ads
+writing: raptor-Visual_Flow_Form-Set_Running_Delegate_Type.ads
+writing: raptor-Visual_Flow_Form-Set_TopMost_Delegate_Type.ads
+writing: raptor-Visual_Flow_Form-MessageBox_Delegate_Type.ads
+writing: raptor-Visual_Flow_Form-updateScreen_Delegate_Type.ads
+writing: raptor-Visual_Flow_Form-invalidateScreen_Delegate_Type.ads
+writing: raptor-Visual_Flow_Form-Load_Delegate_Type.ads
+writing: raptor-Visual_Flow_Form-Win32.ads
+writing: raptor-MD5Helper.ads
+writing: FilesBrowser.ads
+writing: FilesBrowser-FilesListBox.ads
+writing: FilesBrowser-IconSize.ads
+writing: FilesBrowser-FileSelectedEventHandler.ads
+writing: FilesBrowser-FileSelectEventArgs.ads
+writing: FilesBrowser-IconExtractor.ads
+writing: FilesBrowser-IconExtractor-SHFILEINFO.ads
+writing: raptor-Return_Dlg.ads
+writing: raptor-CallStack.ads
+writing: raptor-CallStack-StackFrame.ads
+writing: raptor-Assignment_Dlg.ads
+writing: raptor-logging_info.ads
+writing: raptor-logging_info-event_kind.ads
+writing: raptor-logging_info-event_record.ads
+writing: raptor-Buffered.ads
+writing: raptor-UMLDiagram.ads
+writing: raptor-Component.ads
+writing: raptor-Component-FootPrint.ads
+writing: raptor-Oval.ads
+writing: raptor-Mode.ads
+writing: raptor-Autoupdate.ads
+writing: raptor-Clipboard_Data.ads
+writing: raptor-Clipboard_Data-kinds.ads
+writing: raptor-ClassTabPage.ads
+writing: raptor-Call_Dialog.ads
+writing: raptor-SubmitServerForm.ads
+writing: raptor-Subchart_Kinds.ads
+writing: raptor-Subchart.ads
+writing: raptor-Runtime.ads
+writing: raptor-Runtime-Parameter_Kind.ads
+writing: raptor-Runtime-Variable_Kind.ads
+writing: raptor-Runtime-Add_Node_Delegate.ads
+writing: raptor-Runtime-Delete_Scope_Delegate.ads
+writing: raptor-Registry_Settings.ads
+writing: raptor-HelpForm.ads
+writing: raptor-BinaryComponent.ads
+writing: raptor-IF_Control.ads
+writing: raptor-EmergencyDialog.ads
+writing: raptor-Dialog_Helpers.ads
+writing: raptor-ParseHelpers.ads
+writing: raptor-Oval_Return.ads
+writing: raptor-Subchart_name.ads
+writing: raptor-Step_Helpers.ads
+writing: raptor-PensBrushes.ads
+writing: raptor-PensBrushes-family.ads
+writing: raptor-Constructors.ads
+writing: raptor-PromptForm.ads
+writing: raptor-PromptForm-Kill_Delegate_Type.ads
+writing: raptor-MRU.ads
+writing: raptor-Control_Dlg.ads
+writing: raptor-Rectangle.ads
+writing: raptor-Rectangle-Kind_Of.ads
+writing: raptor-Parallelogram.ads
+writing: raptor-MasterConsole.ads
+writing: raptor-MasterConsole-set_text_delegate_type.ads
+writing: raptor-Loop_k.ads
+writing: raptor-CommentBox.ads
+writing: raptor-Output_Dlg.ads
+writing: raptor-StopSign.ads
+writing: raptor-Procedure_Chart.ads
+writing: raptor-Prefix_Results.ads
+writing: raptor-Bold_Results.ads
+writing: raptor-Plugins.ads
+writing: raptor-Procedure_name.ads
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor\bin\Release>copy *.ads ..\.. 
+FilesBrowser-FileSelectedEventHandler.ads
+FilesBrowser-FileSelectEventArgs.ads
+FilesBrowser-FilesListBox.ads
+FilesBrowser-IconExtractor-SHFILEINFO.ads
+FilesBrowser-IconExtractor.ads
+FilesBrowser-IconSize.ads
+FilesBrowser.ads
+raptor-Assignment_Dlg.ads
+raptor-Autoupdate.ads
+raptor-Balloon-Corner.ads
+raptor-Balloon.ads
+raptor-BARTPEFileOpenList.ads
+raptor-BARTPEFileSaveList.ads
+raptor-BinaryComponent.ads
+raptor-Bold_Results.ads
+raptor-Buffered.ads
+raptor-CallStack-StackFrame.ads
+raptor-CallStack.ads
+raptor-Call_Dialog.ads
+raptor-ClassTabPage.ads
+raptor-Clipboard_Data-kinds.ads
+raptor-Clipboard_Data.ads
+raptor-CommentBox.ads
+raptor-Comment_Dlg.ads
+raptor-Compile_Helpers.ads
+raptor-Component-FootPrint.ads
+raptor-Component.ads
+raptor-Constructors.ads
+raptor-Control_Dlg.ads
+raptor-Dialog_Helpers.ads
+raptor-EmergencyDialog.ads
+raptor-Generate_IL.ads
+raptor-HelpForm.ads
+raptor-IF_Control.ads
+raptor-Input_Dlg.ads
+raptor-logging_info-event_kind.ads
+raptor-logging_info-event_record.ads
+raptor-logging_info.ads
+raptor-Loop_k.ads
+raptor-MasterConsole-set_text_delegate_type.ads
+raptor-MasterConsole.ads
+raptor-MD5Helper.ads
+raptor-Mode.ads
+raptor-MRU.ads
+raptor-Output_Dlg.ads
+raptor-Oval.ads
+raptor-Oval_Return.ads
+raptor-Parallelogram.ads
+raptor-ParseHelpers.ads
+raptor-PensBrushes-family.ads
+raptor-PensBrushes.ads
+raptor-Plugins.ads
+raptor-Prefix_Results.ads
+raptor-Procedure_Chart.ads
+raptor-Procedure_name.ads
+raptor-PromptForm-Kill_Delegate_Type.ads
+raptor-PromptForm.ads
+raptor-Rectangle-Kind_Of.ads
+raptor-Rectangle.ads
+raptor-Registry_Settings.ads
+raptor-Return_Dlg.ads
+raptor-Runtime-Add_Node_Delegate.ads
+raptor-Runtime-Delete_Scope_Delegate.ads
+raptor-Runtime-Parameter_Kind.ads
+raptor-Runtime-Variable_Kind.ads
+raptor-Runtime.ads
+raptor-Runtime_Helpers.ads
+raptor-Step_Helpers.ads
+raptor-StopSign.ads
+raptor-Subchart.ads
+raptor-Subchart_Kinds.ads
+raptor-Subchart_name.ads
+raptor-SubmitServerForm.ads
+raptor-UMLDiagram.ads
+raptor-UMLupdater.ads
+raptor-Undo_Stack-Action.ads
+raptor-Undo_Stack-Action_Kind.ads
+raptor-Undo_Stack.ads
+raptor-UserControl1.ads
+raptor-Value_2D_Array.ads
+raptor-Value_Array.ads
+raptor-Visual_Flow_Form-invalidateScreen_Delegate_Type.ads
+raptor-Visual_Flow_Form-Load_Delegate_Type.ads
+raptor-Visual_Flow_Form-MessageBox_Delegate_Type.ads
+raptor-Visual_Flow_Form-Set_Current_Tab_Delegate_Type.ads
+raptor-Visual_Flow_Form-Set_Running_Delegate_Type.ads
+raptor-Visual_Flow_Form-Set_TopMost_Delegate_Type.ads
+raptor-Visual_Flow_Form-Start_Delegate_Type.ads
+raptor-Visual_Flow_Form-updateScreen_Delegate_Type.ads
+raptor-Visual_Flow_Form-Win32.ads
+raptor-Visual_Flow_Form.ads
+raptor.ads
+       92 file(s) copied.
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor\bin\Release>del *.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor\bin\Release>cd ..\.. 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with numbers.value;/with numbers;/" raptor-runtime.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/access numbers.value.Typ'Class/numbers.value/g" temp.ads   1>raptor-runtime.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/numbers.value.Ref_array/Integer/g" raptor-runtime.ads   1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/numbers.value.Ref_arr/Integer/g" temp.ads   1>raptor-runtime.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with numbers.value;/with numbers;/" raptor-parsehelpers.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/access numbers.value.Typ'Class/numbers.value/g" temp.ads   1>raptor-parsehelpers.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/numbers.value.Ref_array/Integer/g" raptor-parsehelpers.ads   1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/numbers.value.Ref_arr/Integer/g" temp.ads   1>raptor-parsehelpers.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with interpreter.syntax_result/with interpreter/g" raptor-component.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with parse_tree.parseable/with parse_tree/g" temp.ads  1>raptor-component.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/parse_tree.parseable.Typ'Class/parse_tree.parseable'Class/g" raptor-component.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/interpreter.syntax_result.Typ'Class/interpreter.syntax_result'Class/g" temp.ads  1>raptor-component.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/generate_interface.typ/generate_interface/g" raptor-component.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>copy temp.ads raptor-component.ads 
+        1 file(s) copied.
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/generate_interface.typ/generate_interface/g" raptor-oval.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>copy temp.ads raptor-oval.ads 
+        1 file(s) copied.
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with parse_tree.parameter_list/with parse_tree/g" raptor-plugins.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/parse_tree.parameter_list.Typ'Class/parse_tree.parameter_list'Class/g" temp.ads  1>raptor-plugins.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with parse_tree.parameter_list/with parse_tree/g" raptor-step_helpers.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/parse_tree.parameter_list.Typ'Class/parse_tree.parameter_list'Class/g" temp.ads  1>raptor-step_helpers.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/with MSIL_Types;/with MSIL_Types; with MSSyst.String;/" raptor-prefix_results.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with MSSyst.String;//" temp.ads  1>raptor-prefix_results.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/string_array/MSSyst.String.Ref_Array/g" raptor-prefix_results.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>copy temp.ads raptor-prefix_results.ads 
+        1 file(s) copied.
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with parse_tree.boolean2/with parse_tree/" raptor-compile_helpers.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with parse_tree.boolean_expression/with parse_tree/" temp.ads  1>raptor-compile_helpers.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with parse_tree.boolean_parseable/with parse_tree/" raptor-compile_helpers.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/generate_interface.typ/generate_interface/g" temp.ads  1>raptor-compile_helpers.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/      gen : access MSSyst.Reflection.Emit.ILGenerator.Typ'Class;//" raptor-generate_il.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/      pragma Import.MSIL,gen,.gen../null/" temp.ads  1>raptor-generate_il.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/parse_tree.boolean2.Typ'Class/parse_tree.boolean2'Class/g" raptor-generate_il.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with parse_tree.boolean2/with parse_tree/g" temp.ads  1>raptor-generate_il.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with parse_tree.boolean_expression;//g" raptor-generate_il.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with parse_tree.boolean_parseable;//g" temp.ads  1>raptor-generate_il.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with parse_tree.expression;//g" raptor-generate_il.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with parse_tree.parameter_list;//g" temp.ads  1>raptor-generate_il.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/parse_tree.boolean_expression.Typ'Class/parse_tree.boolean_expression'Class/g" raptor-generate_il.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/parse_tree.boolean_parseable.Typ'Class/parse_tree.boolean_parseable'Class/g" temp.ads  1>raptor-generate_il.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/parse_tree.expression.Typ'Class/parse_tree.expression'Class/g" raptor-generate_il.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/parse_tree.parameter_list.Typ'Class/parse_tree.parameter_list'Class/g" temp.ads  1>raptor-generate_il.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/generate_interface.typ/generate_interface/g" raptor-generate_il.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/type Typ is new MSSyst.Object.Typ/type Typ is abstract new MSSyst.Object.Typ/g" temp.ads  1>raptor-generate_il.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/limited with numbers.value;/with numbers;/" raptor-compile_helpers.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/numbers.value.Typ'Class/numbers.value/g" temp.ads   1>raptor-compile_helpers.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/parse_tree.boolean_parseable.Typ'Class/parse_tree.boolean_parseable'Class/g" raptor-compile_helpers.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/parse_tree.boolean2.Typ'Class/parse_tree.boolean2'Class/g" temp.ads   1>raptor-compile_helpers.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>sed -e "s/parse_tree.boolean_expression.Typ'Class/parse_tree.boolean_expression'Class/g" raptor-compile_helpers.ads  1>temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>copy temp.ads raptor-compile_helpers.ads 
+        1 file(s) copied.
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>del temp.ads 
+
+C:\d\My Documents\Visual Studio 2008\Projects\raptor>mgnatmake interpreter -gnatf -gnat05 -o interpreter.dll -z -largs /DLL /DEBUG 
+
+***** FAILURE ***** 
+mgnatlink: cannot call ilasm

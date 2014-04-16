@@ -1,0 +1,115 @@
+[OPTIONS]
+Compiled File=raptorhelp.chm
+Title=RAPTOR Help
+Contents File=raptorhelp.hhc
+Index File=raptorhelp.hhk
+Default topic=Introducing_Raptor.htm
+Default Window=NewWindow
+Error log file=
+Display compile progress=No
+Display compile notes=No
+Full-text search=Yes
+Binary Index=No
+Auto Index=No
+Enhanced decompilation=No
+Binary TOC=No
+Flat=No
+Full text search stop list file=C:\Program Files\RoboHELP Office\RoboHTML\Language\English\System.stp
+
+[WINDOWS]
+NewWindow="RAPTOR Help","raptorhelp.hhc","raptorhelp.hhk","","",,,,,0x420,0,0x200e,[0,0,500,400],0x0,0x0,,0,0,0
+
+[FILES]
+boolean_expressions.htm
+About_Raptorgraph.htm
+Building_a_flowchart.htm
+Clear_Window.htm
+Close_Graph_Window.htm
+Closest_Color.htm
+Colors.htm
+display_number.htm
+Editing_Symbols.htm
+Key_Hit.htm
+Open_Graph_Window.htm
+Wait_For_Key.htm
+Flood_Fill.htm
+Get_Font_Height.htm
+Get_Font_Width.htm
+Get_Key.htm
+get_max_height.htm
+get_max_width.htm
+Using_the_menu.htm
+Using_the_toolbar.htm
+Draw_Ellipse.htm
+Watch_window.htm
+Executing_a_flowchart.htm
+Draw_Line.htm
+Display_Text.htm
+Draw_Arc.htm
+Draw_Box.htm
+Draw_Circle.htm
+Mouse_Button_Released.htm
+Get_Mouse_Button.htm
+Get_Mouse_X.htm
+Get_Mouse_Y.htm
+Get_Pixel.htm
+get_window_width.htm
+Introducing_Raptor.htm
+is_open.htm
+math-functions.htm
+Mouse_Button_Pressed.htm
+Overview_of_Raptor.htm
+Put_Pixel.htm
+Raptor_symbols.htm
+Wait_For_Mouse_Button.htm
+math-operators.htm
+String_Comparisons.htm
+Creating_Arrays.htm
+Array_Overview.htm
+String_Operations.htm
+Raptor_Functions.htm
+String_Input.htm
+Raptor_workspace.htm
+Generating_Random_Colors.htm
+trig-functions.htm
+Set_Window_Title.htm
+Strings.htm
+Get_Window_Height.htm
+reducing_displayed_chart_size.htm
+Tutorial_-_Building_a_Flowchart.htm
+Using_the_MasterConsole.htm
+Creating_a_Subchart.htm
+Subchart_Overview.htm
+Clear_Console.htm
+Sound_Operations.htm
+Delay_For.htm
+Array_Operations.htm
+Two-Dimensional_Arrays.htm
+Calling_Subcharts.htm
+Input_Line_by_Line.htm
+Files_Overview.htm
+Outputting_to_a_File.htm
+Get_Key_String.htm
+Inputting_from_a_File.htm
+Variables_in_Raptor.htm
+Freeze_Graph_Window.htm
+Type_Queries.htm
+Spacing_for_Readability.htm
+Names_in_Raptor.htm
+Procedure_Calls_vs._Functions.htm
+RaptorGraph_Overview.htm
+Key_Down.htm
+Set_Font_Size.htm
+Load_Bitmap.htm
+Draw_Bitmap.htm
+Mouse_Button_Down.htm
+
+raptorhelp.brs
+[ALIAS]
+#include raptorhelp.ali
+
+[MAP]
+
+[TEXT POPUPS]
+
+

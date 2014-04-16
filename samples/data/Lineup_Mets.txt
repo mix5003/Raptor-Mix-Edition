@@ -1,0 +1,58 @@
+J Reyes
+1
+4
+6
+0
+P Lo Duca
+1
+4
+2
+1
+C Beltran
+3
+4
+4
+0
+C Delgado
+5
+4
+2
+-1
+D Wright
+4
+5
+3
+1
+C Floyd
+4
+3
+3
+-1
+X Nady
+3
+3
+2
+1
+J Franco
+2
+3
+3
+1
+A Hernandez
+1
+2
+4
+0
+P Martinez
+3
+5
+5
+1
+7
+1
+1
+2
+3
+6
+6
+7

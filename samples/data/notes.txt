@@ -1,0 +1,32 @@
+Hitter Data Format
+Name
+Power
+Contact
+Speed
+Handedness (-1:L, 0:S, 1:R)
+
+Pitcher Data Format
+Name
+Velocity
+Movement
+Control
+Handedness (see above)
+Number of pitches
+Pitch1
+Pitch2
+...
+
+Pitches:
+1: 4-seam FB
+2: Curve
+3: Slider
+4: 2-seam FB
+5: Splitter
+6: Change
+7: Cutter
+
+Note that you can have multiple copies of the same pitch to reflect a repertoire that focuses on one or more pitches above others.
+
+A team lineup file has 9 hitters followed by one pitcher.
+
+All stats (e.g. Contact or Movement) are on a basic scale of 1-5.  Extreme outliers can be given values of zero (e.g. F Thomas's speed) or 6 (e.g. Carl Crawford's speed).

@@ -1,0 +1,55 @@
+D Eckstein
+1
+4
+5
+1
+J Encarnacion
+3
+3
+4
+1
+A Pujols
+5
+5
+2
+1
+J Edmonds
+5
+4
+3
+-1
+S Rolen
+5
+4
+3
+1
+L Bigbie
+3
+3
+3
+-1
+J Rodriguez
+2
+4
+3
+-1
+J Spivey
+3
+3
+3
+1
+Y Molina
+1
+3
+1
+1
+M Mulder
+3
+4
+4
+-1
+4
+1
+2
+3
+6

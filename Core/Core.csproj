@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CF10505-3C2E-4E45-AB90-21613237B412}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NClass.Core</RootNamespace>
+    <AssemblyName>NClass.Core</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BadSyntaxException.cs" />
+    <Compile Include="BinarySerializationHelper.cs" />
+    <Compile Include="Element.cs" />
+    <Compile Include="ISerializableElement.cs" />
+    <Compile Include="RAPTORUpdater.cs" />
+    <Compile Include="SerializeEventArgs.cs" />
+    <Compile Include="IProjectPlugin.cs" />
+    <Compile Include="IPlugin.cs" />
+    <Compile Include="Entities\CompositeType.cs" />
+    <Compile Include="Entities\TypeBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Members\FieldModifier.cs" />
+    <Compile Include="Entities\IInterfaceImplementer.cs" />
+    <Compile Include="DotNetLanguage.cs" />
+    <Compile Include="RelationEventArgs.cs" />
+    <Compile Include="EntityEventArgs.cs" />
+    <Compile Include="Members\EnumValue.cs" />
+    <Compile Include="Parameters\ArgumentList.cs" />
+    <Compile Include="Relations\RelationException.cs" />
+    <Compile Include="Relations\TypeRelation.cs" />
+    <Compile Include="Relations\Direction.cs" />
+    <Compile Include="Members\Constructor.cs" />
+    <Compile Include="Members\Destructor.cs" />
+    <Compile Include="Entities\SingleInharitanceType.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="ReservedNameException.cs" />
+    <Compile Include="ProjectCore.cs" />
+    <Compile Include="Relations\AssociationRelation.cs" />
+    <Compile Include="Relations\CommentRelation.cs" />
+    <Compile Include="Relations\DependencyRelation.cs" />
+    <Compile Include="AccessModifier.cs" />
+    <Compile Include="Entities\ClassModifier.cs" />
+    <Compile Include="Entities\ClassType.cs" />
+    <Compile Include="Entities\Comment.cs" />
+    <Compile Include="Entities\DelegateType.cs" />
+    <Compile Include="Entities\EnumType.cs" />
+    <Compile Include="Entities\IEntity.cs" />
+    <Compile Include="Relations\GeneralizationRelation.cs" />
+    <Compile Include="Relations\RealizationRelation.cs" />
+    <Compile Include="Members\Event.cs" />
+    <Compile Include="Members\Field.cs" />
+    <Compile Include="Entities\InterfaceType.cs" />
+    <Compile Include="Members\Member.cs" />
+    <Compile Include="Members\Method.cs" />
+    <Compile Include="Members\OperationModifier.cs" />
+    <Compile Include="Members\Operation.cs" />
+    <Compile Include="Parameters\Parameter.cs" />
+    <Compile Include="Parameters\ParameterModifier.cs" />
+    <Compile Include="Relations\NestingRelation.cs" />
+    <Compile Include="Members\Property.cs" />
+    <Compile Include="Entities\SortingMode.cs" />
+    <Compile Include="Entities\StructureType.cs" />
+    <Compile Include="Relations\Relation.cs" />
+    <Compile Include="LanguageElement.cs" />
+    <Compile Include="SerializeEventArgsBinary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Translations\Translations.csproj">
+      <Project>{B3B7D798-3D52-47F0-B1A7-A91BC5FE184F}</Project>
+      <Name>Translations</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,91 @@
+30
+Arizona Diamondbacks 2006
+Lineup_Diamondbacks.txt
+ari.gif
+Atlanta Braves 2006
+Lineup_Braves.txt
+atl.gif
+Baltimore Orioles 2006
+Lineup_Orioles.txt
+bal.gif
+Boston Red Sox 2006
+Lineup_Red_Sox.txt
+bos.gif
+Chicago Cubs 2006
+Lineup_Cubs.txt
+chn.gif
+Chicago White Sox 2006
+Lineup_White_Sox.txt
+cha.gif
+Cincinnati Reds 2006
+Lineup_Reds.txt
+cin.gif
+Cleveland Indians 2006
+Lineup_Indians.txt
+cle.gif
+Colorado Rockies 2006
+Lineup_Rockies.txt
+col.gif
+Detroit Tigers 2006
+Lineup_Tigers.txt
+det.gif
+Florida Marlins 2006
+Lineup_Marlins.txt
+fla.gif
+Houston Astros 2006
+Lineup_Astros.txt
+hou.gif
+Kansas City Royals 2006
+Lineup_Royals.txt
+kan.gif
+LA Angels of Anaheim 2006
+Lineup_Angels.txt
+ana.gif
+Los Angeles Dodgers 2006
+Lineup_Dodgers.txt
+los.gif
+Milwaukee Brewers 2006
+Lineup_Brewers.txt
+mil.gif
+Minnesota Twins 2006
+Lineup_Twins.txt
+min.gif
+New York Mets 2006
+Lineup_Mets.txt
+nym.gif
+New York Yankees 2006
+Lineup_Yankees.txt
+nyy.gif
+Oakland A's 2006
+Lineup_Athletics.txt
+oak.gif
+Philadelphia Phillies 2006
+Lineup_Phillies.txt
+phi.gif
+Pittsburgh Pirates 2006
+Lineup_Pirates.txt
+pit.gif
+San Diego Padres 2006
+Lineup_Padres.txt
+sdg.gif
+San Francisco Giants 2006
+Lineup_Giants.txt
+sfo.gif
+Seattle Mariners 2006
+Lineup_Mariners.txt
+sea.gif
+St Louis Cardinals 2006
+Lineup_Cardinals.txt
+stl.gif
+Tampa Bay Devil Rays 2006
+Lineup_Devil_Rays.txt
+tam.gif
+Texas Rangers 2006
+Lineup_Rangers.txt
+tex.gif
+Toronto Blue Jays 2006
+Lineup_Blue_Jays.txt
+tor.gif
+Washington Nationals 2006
+Lineup_Nationals.txt
+was.gif

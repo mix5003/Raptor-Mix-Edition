@@ -1,0 +1,56 @@
+R Furcal
+2
+4
+5
+0
+K Lofton
+1
+4
+5
+-1
+J.D. Drew
+4
+4
+3
+-1
+J Kent
+4
+4
+3
+1
+N Garciaparra
+3
+4
+3
+1
+J Werth
+3
+3
+4
+1
+B Mueller
+3
+4
+2
+0
+J Cruz, Jr.
+3
+2
+2
+0
+D Navarro
+2
+3
+2
+0
+D Lowe
+2
+4
+3
+1
+5
+2
+4
+4
+4
+6

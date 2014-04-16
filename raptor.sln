@@ -1,0 +1,89 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "raptor", "raptor.csproj", "{C172591C-E104-4537-9753-9C2CF48D8700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratorAda", "GeneratorAda\GeneratorAda.csproj", "{66B48E78-7F86-4C22-929D-635164C88816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetgraph", "dotnetgraph\dotnetgraph.csproj", "{FE3C9A65-16AC-4559-A0D4-0673A97AC90D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "setup1\Setup1.vdproj", "{D8052538-E51A-439F-9EE8-8745464699A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGenerator", "CodeGenerator\CodeGenerator.csproj", "{BE60D62D-E757-44F4-A342-5388742F5986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{8CF10505-3C2E-4E45-AB90-21613237B412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp", "CSharp\CSharp.csproj", "{755B2714-62DB-419C-9097-49C08439E7E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{A2918CE1-6894-4FC9-A864-4651769D0274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI.Diagram", "GUI.Diagram\GUI.Diagram.csproj", "{F52A7548-E60A-485B-9C84-1D2871416DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Java", "Java\Java.csproj", "{255565B1-3246-4184-9F71-19178FE0BA65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translations", "Translations\Translations.csproj", "{B3B7D798-3D52-47F0-B1A7-A91BC5FE184F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pluginsTime", "pluginsTime\pluginsTime.csproj", "{6F442198-CEDB-4C5C-B4A3-C48E3BBCEC4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C172591C-E104-4537-9753-9C2CF48D8700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C172591C-E104-4537-9753-9C2CF48D8700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C172591C-E104-4537-9753-9C2CF48D8700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C172591C-E104-4537-9753-9C2CF48D8700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B48E78-7F86-4C22-929D-635164C88816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B48E78-7F86-4C22-929D-635164C88816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B48E78-7F86-4C22-929D-635164C88816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B48E78-7F86-4C22-929D-635164C88816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3C9A65-16AC-4559-A0D4-0673A97AC90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3C9A65-16AC-4559-A0D4-0673A97AC90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3C9A65-16AC-4559-A0D4-0673A97AC90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3C9A65-16AC-4559-A0D4-0673A97AC90D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8052538-E51A-439F-9EE8-8745464699A2}.Debug|Any CPU.ActiveCfg = Debug
+		{D8052538-E51A-439F-9EE8-8745464699A2}.Debug|Any CPU.Build.0 = Debug
+		{D8052538-E51A-439F-9EE8-8745464699A2}.Release|Any CPU.ActiveCfg = Release
+		{D8052538-E51A-439F-9EE8-8745464699A2}.Release|Any CPU.Build.0 = Release
+		{BE60D62D-E757-44F4-A342-5388742F5986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE60D62D-E757-44F4-A342-5388742F5986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE60D62D-E757-44F4-A342-5388742F5986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE60D62D-E757-44F4-A342-5388742F5986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF10505-3C2E-4E45-AB90-21613237B412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF10505-3C2E-4E45-AB90-21613237B412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF10505-3C2E-4E45-AB90-21613237B412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF10505-3C2E-4E45-AB90-21613237B412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755B2714-62DB-419C-9097-49C08439E7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755B2714-62DB-419C-9097-49C08439E7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755B2714-62DB-419C-9097-49C08439E7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755B2714-62DB-419C-9097-49C08439E7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2918CE1-6894-4FC9-A864-4651769D0274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2918CE1-6894-4FC9-A864-4651769D0274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2918CE1-6894-4FC9-A864-4651769D0274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2918CE1-6894-4FC9-A864-4651769D0274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52A7548-E60A-485B-9C84-1D2871416DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52A7548-E60A-485B-9C84-1D2871416DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52A7548-E60A-485B-9C84-1D2871416DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52A7548-E60A-485B-9C84-1D2871416DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{255565B1-3246-4184-9F71-19178FE0BA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255565B1-3246-4184-9F71-19178FE0BA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255565B1-3246-4184-9F71-19178FE0BA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255565B1-3246-4184-9F71-19178FE0BA65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B7D798-3D52-47F0-B1A7-A91BC5FE184F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B7D798-3D52-47F0-B1A7-A91BC5FE184F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B7D798-3D52-47F0-B1A7-A91BC5FE184F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B7D798-3D52-47F0-B1A7-A91BC5FE184F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F442198-CEDB-4C5C-B4A3-C48E3BBCEC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F442198-CEDB-4C5C-B4A3-C48E3BBCEC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F442198-CEDB-4C5C-B4A3-C48E3BBCEC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F442198-CEDB-4C5C-B4A3-C48E3BBCEC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

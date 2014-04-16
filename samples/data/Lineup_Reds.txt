@@ -1,0 +1,58 @@
+F Lopez
+3
+3
+4
+0
+A Kearns
+4
+3
+2
+1
+K Griffey, Jr
+5
+4
+2
+-1
+A Dunn
+5
+2
+3
+-1
+E Encarnacion
+3
+4
+3
+1
+J Larue
+3
+2
+2
+1
+S Hatteberg
+2
+3
+2
+-1
+R Aurilia
+3
+3
+3
+1
+R Freel
+1
+3
+5
+1
+B Arroyo
+3
+3
+4
+1
+7
+1
+2
+3
+4
+4
+4
+6

@@ -1,0 +1,8 @@
+C:\nclass\src\GUI\bin\Debug\plugins\AssemblyImport.dll.config
+C:\nclass\src\GUI\bin\Debug\plugins\AssemblyImport.dll
+C:\nclass\src\GUI\bin\Debug\plugins\AssemblyImport.pdb
+C:\nclass\src\AssemblyImport\obj\Debug\ResolveAssemblyReference.cache
+C:\nclass\src\AssemblyImport\obj\Debug\NClass.AssemblyImport.ImportSettingsForm.resources
+C:\nclass\src\AssemblyImport\obj\Debug\AssemblyImport.csproj.GenerateResource.Cache
+C:\nclass\src\AssemblyImport\obj\Debug\AssemblyImport.dll
+C:\nclass\src\AssemblyImport\obj\Debug\AssemblyImport.pdb

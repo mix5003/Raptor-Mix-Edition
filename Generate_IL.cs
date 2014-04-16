@@ -976,6 +976,7 @@ namespace raptor
             this.Emit_Method(
                "ada_runtime_pkg",
                "prompt_dialog");
+            //System.Windows.Forms.MessageBox.Show(kind_of_input+"");
             switch (kind_of_input)
             {
                 case input_kind.variable:

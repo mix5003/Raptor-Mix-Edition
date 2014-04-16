@@ -454,6 +454,7 @@ namespace raptor
         // mcc: big changes 3/3/05 to allow multiple lines in set_text call
         public void clear_txt()
         {
+            if (Visual_Flow_Form.command_line_run) return;
             Object[] args = new Object[1];
             args[0] = this;
             this.Invoke(clear_text_Delegate, args);
@@ -568,6 +569,7 @@ namespace raptor
 		// mcc: big changes 3/3/05 to allow multiple lines in set_text call
 		public void set_text(string text)
 		{
+            if (Visual_Flow_Form.command_line_run) { Console.WriteLine(text);  return; }
             Object[] args = new Object[2];
             args[0] = this;
             args[1] = text;
@@ -607,9 +609,9 @@ namespace raptor
             this.menuFont36 = new System.Windows.Forms.MenuItem();
             this.menuItem1 = new System.Windows.Forms.MenuItem();
             this.menuItemCopy = new System.Windows.Forms.MenuItem();
+            this.menuItemSelectAll = new System.Windows.Forms.MenuItem();
             this.menuHelp = new System.Windows.Forms.MenuItem();
             this.menuGeneralHelp = new System.Windows.Forms.MenuItem();
-            this.menuItemSelectAll = new System.Windows.Forms.MenuItem();
             this.menuItemShowLog = new System.Windows.Forms.MenuItem();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -619,7 +621,7 @@ namespace raptor
             this.panel1.Controls.Add(this.clear_button);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 214);
+            this.panel1.Location = new System.Drawing.Point(0, 194);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(360, 56);
             this.panel1.TabIndex = 1;
@@ -654,7 +656,7 @@ namespace raptor
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(360, 214);
+            this.textBox1.Size = new System.Drawing.Size(360, 194);
             this.textBox1.TabIndex = 2;
             // 
             // mainMenu1
@@ -801,6 +803,12 @@ namespace raptor
             this.menuItemCopy.Text = "&Copy";
             this.menuItemCopy.Click += new System.EventHandler(this.menuItem2_Click);
             // 
+            // menuItemSelectAll
+            // 
+            this.menuItemSelectAll.Index = 1;
+            this.menuItemSelectAll.Text = "Select &all";
+            this.menuItemSelectAll.Click += new System.EventHandler(this.menuItemSelectAll_Click);
+            // 
             // menuHelp
             // 
             this.menuHelp.Index = 4;
@@ -815,12 +823,6 @@ namespace raptor
             this.menuGeneralHelp.Text = "&General Help";
             this.menuGeneralHelp.Click += new System.EventHandler(this.menuGeneralHelp_Click);
             // 
-            // menuItemSelectAll
-            // 
-            this.menuItemSelectAll.Index = 1;
-            this.menuItemSelectAll.Text = "Select &all";
-            this.menuItemSelectAll.Click += new System.EventHandler(this.menuItemSelectAll_Click);
-            // 
             // menuItemShowLog
             // 
             this.menuItemShowLog.Index = 1;
@@ -831,7 +833,7 @@ namespace raptor
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(360, 270);
+            this.ClientSize = new System.Drawing.Size(360, 250);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -841,10 +843,10 @@ namespace raptor
             this.Name = "MasterConsole";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "MasterConsole";
-            this.Resize += new System.EventHandler(this.MasterConsole_Resize);
-            this.Move += new System.EventHandler(this.MasterConsole_Resize);
             this.Closing += new System.ComponentModel.CancelEventHandler(this.MasterConsole_Closing);
             this.Load += new System.EventHandler(this.MasterConsole_Load);
+            this.Move += new System.EventHandler(this.MasterConsole_Resize);
+            this.Resize += new System.EventHandler(this.MasterConsole_Resize);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

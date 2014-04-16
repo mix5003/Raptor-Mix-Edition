@@ -1578,8 +1578,16 @@ namespace raptor
 			if (!raptor_files_pkg.input_redirected())
 			{
 				string val;
-				PromptForm pd = new PromptForm(s,parent);
-				val = pd.Go();
+                if (Visual_Flow_Form.command_line_run)
+                {
+                    val = Console.ReadLine();
+                }
+                else
+                {
+                    PromptForm pd = new PromptForm(s, parent);
+                    val = pd.Go();
+                }
+				
 				return val;
 			}
 			else

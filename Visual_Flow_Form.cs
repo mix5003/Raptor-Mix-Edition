@@ -663,7 +663,7 @@ namespace raptor
             }
             catch (System.Exception e)
             {
-                System.Windows.Forms.MessageBox.Show(e.Message);
+                showUserMessage(e.Message);
             }
 			InitializeComponent();
             this._umlupdater = new UMLupdater(this);
@@ -2295,8 +2295,8 @@ namespace raptor
             // 
             // printDoc
             // 
-            this.printDoc.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDoc_PrintPage);
             this.printDoc.BeginPrint += new System.Drawing.Printing.PrintEventHandler(this.printDoc_BeginPrint);
+            this.printDoc.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDoc_PrintPage);
             // 
             // contextMenuInsert
             // 
@@ -2378,9 +2378,9 @@ namespace raptor
             this.carlisle.SelectedIndex = 0;
             this.carlisle.Size = new System.Drawing.Size(578, 480);
             this.carlisle.TabIndex = 6;
-            this.carlisle.MouseMove += new System.Windows.Forms.MouseEventHandler(this.tabControl1_MouseMove);
-            this.carlisle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.tabControl1_MouseDown);
             this.carlisle.TabIndexChanged += new System.EventHandler(this.tabControl1_TabIndexChanged);
+            this.carlisle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.tabControl1_MouseDown);
+            this.carlisle.MouseMove += new System.Windows.Forms.MouseEventHandler(this.tabControl1_MouseMove);
             this.carlisle.MouseUp += new System.Windows.Forms.MouseEventHandler(this.tabControl1_MouseUp);
             // 
             // tabContextMenu
@@ -2441,12 +2441,12 @@ namespace raptor
             this.Name = "Visual_Flow_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Raptor";
-            this.Deactivate += new System.EventHandler(this.Visual_Flow_Form_Deactivate);
             this.Activated += new System.EventHandler(this.Visual_Flow_Form_Activated);
             this.Closing += new System.ComponentModel.CancelEventHandler(this.Visual_Flow_Form_Closing);
+            this.Deactivate += new System.EventHandler(this.Visual_Flow_Form_Deactivate);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Visual_Flow_Form_KeyDown);
             this.Move += new System.EventHandler(this.Visual_Flow_Form_Move);
             this.Resize += new System.EventHandler(this.Visual_Flow_Form_Resize);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Visual_Flow_Form_KeyDown);
             this.control_panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
@@ -2539,7 +2539,7 @@ namespace raptor
             }
             catch
             {
-                MessageBox.Show("Failed reading: " + args[2]);
+                showUserMessage("Failed reading: " + args[2]);
                 Application.Exit();
             }
             // check for output file
@@ -2559,7 +2559,7 @@ namespace raptor
             }
             catch
             {
-                MessageBox.Show("Failed creating: " + args[2]);
+                showUserMessage("Failed creating: " + args[2]);
                 Application.Exit();
             }
             try
@@ -3295,7 +3295,7 @@ namespace raptor
                     Subchart stmn = this.selectedTabMaybeNull();
                     if (stmn == null || !stmn.Am_Dragging)
                     {
-                        MessageBox.Show("Please save now.", "Save your work");
+                        showUserMessage("Please save now.", "Save your work");
                         this.SaveAs_Click(null, null);
                     }
                 }
@@ -3399,7 +3399,7 @@ namespace raptor
             }
             catch (Exception exc)
             {
-                MessageBox.Show("Please install the Microsoft.Ink.dll CLR 2.0 Update (KB900722)");
+                showUserMessage("Please install the Microsoft.Ink.dll CLR 2.0 Update (KB900722)");
             }
 			if (this.Current_Selection != null)
 			{
@@ -3583,7 +3583,7 @@ namespace raptor
 				if (File.Exists(name) &&
 					(File.GetAttributes(name) & FileAttributes.ReadOnly) > 0)
 				{
-					MessageBox.Show(
+                    MessageBox.Show(
 						prefix + '\n' +
 						name + " is a read-only file",
 						"Error",
@@ -3591,7 +3591,7 @@ namespace raptor
 				}
 				else
 				{
-					MessageBox.Show(
+                    MessageBox.Show(
 						prefix + '\n' +
 						"Unable to create file: "+
 						name, "Error",
@@ -3716,8 +3716,8 @@ namespace raptor
 				}
 			}
 			catch (System.Exception exc)
-			{ 
-				MessageBox.Show(
+			{
+                MessageBox.Show(
 					prefix + '\n' +
 					"Please report to Martin.Carlisle@usafa.edu" + '\n' +
 					"Meantime, try undo then save (keep doing undo until success)" + '\n'+
@@ -3800,7 +3800,7 @@ namespace raptor
                     }
                     catch
                     {
-                        MessageBox.Show("failed to save to HD.");
+                        showUserMessage("failed to save to HD.");
                     }
                     
                     output_file = this.fileName.ToLower().Replace(Component.BARTPE_ramdrive_path, 
@@ -3811,12 +3811,12 @@ namespace raptor
                     }
                     catch
                     {
-                        MessageBox.Show("Failed to save to USB.  Contact your instructor!");
+                        showUserMessage("Failed to save to USB.  Contact your instructor!");
                     }
                 }
                 catch
                 {
-                    MessageBox.Show("Failed to save.  Contact your instructor!");
+                    showUserMessage("Failed to save.  Contact your instructor!");
                 }
             }
 		}
@@ -3953,7 +3953,7 @@ namespace raptor
             proc.WaitForExit();
             if (proc.ExitCode != 0)
             {
-                MessageBox.Show("failed to save to HD");
+                showUserMessage("failed to save to HD");
             }
         }
 		private void FileSave_Click(object sender, System.EventArgs e)
@@ -3996,7 +3996,7 @@ namespace raptor
                 }
                 catch
                 {
-                    MessageBox.Show("Unable to open file: " + dialog_fileName);
+                    showUserMessage("Unable to open file: " + dialog_fileName);
                     return;
                 }
 				BinaryFormatter bformatter = new BinaryFormatter();
@@ -4041,7 +4041,7 @@ namespace raptor
                             if (i == 0 && incoming_kind != Subchart_Kinds.UML &&
                                 Component.Current_Mode == Mode.Expert)
                             {
-                                MessageBox.Show("Changing to Intermediate Mode");
+                                showUserMessage("Changing to Intermediate Mode");
                                 this.menuIntermediate_Click(null, null);
                             }
                             if (incoming_kind != Subchart_Kinds.Subchart)
@@ -4049,12 +4049,12 @@ namespace raptor
                                 if (Component.Current_Mode != Mode.Expert &&
                                     incoming_kind == Subchart_Kinds.UML)
                                 {
-                                    MessageBox.Show("Changing to Object-Oriented Mode");
+                                    showUserMessage("Changing to Object-Oriented Mode");
                                     this.menuObjectiveMode_Click(null, null);
                                 }
                                 if (Component.Current_Mode == Mode.Novice)
                                 {
-                                    MessageBox.Show("Changing to Intermediate Mode");
+                                    showUserMessage("Changing to Intermediate Mode");
                                     this.menuIntermediate_Click(null, null);
                                 }
                             }
@@ -4289,12 +4289,16 @@ namespace raptor
 				}
 				Component.view_comments = this.menuViewComments.Checked;
 
-				flow_panel.Invalidate();
-				MC.clear_txt();
-			}
+                if (!Visual_Flow_Form.command_line_run)
+                {
+                    flow_panel.Invalidate();
+                    MC.clear_txt();
+
+                }
+               }
 			catch (System.Exception e)
 			{
-				MessageBox.Show(e.Message + "\n" + e.StackTrace + "\n" + "Invalid Filename:" + dialog_fileName, "Error",
+                MessageBox.Show(e.Message + "\n" + e.StackTrace + "\n" + "Invalid Filename:" + dialog_fileName, "Error",
 					MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 		}
@@ -4339,7 +4343,7 @@ namespace raptor
 
 			if (dialog_fileName == "" || dialog_fileName == null)
 			{
-				MessageBox.Show("Invalid File Name", "Error",
+                MessageBox.Show("Invalid File Name", "Error",
 					MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 
@@ -4820,7 +4824,7 @@ namespace raptor
 		{
 			f.TopMost = true;
 			System.Threading.Thread.Sleep(50);
-			MessageBox.Show(f,text,caption,MessageBoxButtons.OK,
+            MessageBox.Show(f, text, caption, MessageBoxButtons.OK,
 				icon);
 			f.TopMost = false;
 			f.MC.BringToFront();
@@ -5284,7 +5288,7 @@ namespace raptor
 					}
 					catch (System.Exception exc)
 					{
-						System.Windows.Forms.MessageBox.Show("Flowchart terminated abnormally\n" +
+                        showUserMessage("Flowchart terminated abnormally\n" +
 							exc.ToString());
 					}
 				}
@@ -5430,7 +5434,7 @@ namespace raptor
             }
 			if (dialog_fileName == "" || dialog_fileName == null)
 			{
-				MessageBox.Show("Invalid File Name", "Error",
+                MessageBox.Show("Invalid File Name", "Error",
 					MessageBoxButtons.OK, MessageBoxIcon.Error);
 				return;
 			}
@@ -5927,7 +5931,7 @@ namespace raptor
             }
             catch
             {
-                MessageBox.Show("Please install the Microsoft.Ink.dll CLR 2.0 Update (KB900722)");
+                showUserMessage("Please install the Microsoft.Ink.dll CLR 2.0 Update (KB900722)");
             }
             if (non_oval_selected || this.selectedComment != null || this.region_selected)
 			{
@@ -6495,13 +6499,13 @@ namespace raptor
 
 			if (this.fileName==null||this.fileName=="")
 			{
-				MessageBox.Show("Must save before compiling",
+                showUserMessage("Must save before compiling",
 					"Can't compile");
 				return;
 			}
 			if (Component.compiled_flowchart)
 			{
-				MessageBox.Show("Already compiled",
+                showUserMessage("Already compiled",
 					"Can't compile");
 				return;
 			}
@@ -6555,7 +6559,7 @@ namespace raptor
 			}
 			catch (System.Exception exc)
 			{
-				MessageBox.Show(exc.Message,"Can't compile");
+				showUserMessage(exc.Message,"Can't compile");
 			}
 		}
 
@@ -6691,7 +6695,7 @@ namespace raptor
 				// this dispose is needed to close the metafile
 				g1.Dispose();
 				//Clipboard.SetDataObject(b1,true);
-				MessageBox.Show("Please open MS Word, or other " +
+				showUserMessage("Please open MS Word, or other " +
 					"application you intend to paste into.\n" +
 					"Otherwise it may not paste correctly.",
 					"Paste to clipboard");
@@ -7036,13 +7040,13 @@ namespace raptor
                 }
                 catch (System.Exception exc)
                 {
-                    System.Windows.Forms.MessageBox.Show("Flowchart terminated abnormally\n" +
+                    showUserMessage("Flowchart terminated abnormally\n" +
                         exc.ToString());
                 }
             }
             catch (System.Exception exc)
             {
-                System.Windows.Forms.MessageBox.Show(exc.Message + "\n", "Compilation error", 
+                MessageBox.Show(exc.Message + "\n", "Compilation error", 
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
@@ -7224,7 +7228,7 @@ namespace raptor
             {
                 if (this.carlisle.TabPages[i] is Procedure_Chart)
                 {
-                    MessageBox.Show("Can't switch to novice mode, " +
+                    showUserMessage("Can't switch to novice mode, " +
                         this.carlisle.TabPages[i].Text + " is a procedure");
                     return;
                 }
@@ -7293,7 +7297,7 @@ namespace raptor
 
 			if (this.fileName==null||this.fileName=="")
 			{
-				MessageBox.Show("Must save before generating standalone",
+				showUserMessage("Must save before generating standalone",
 					"Can't generate EXE");
 				return;
 			}
@@ -7308,11 +7312,11 @@ namespace raptor
                     folder,
                     System.IO.Path.GetFileNameWithoutExtension(this.fileName) +
                     "_rap.exe");
-                MessageBox.Show("Result in folder: " + folder, "Generation complete");
+                showUserMessage("Result in folder: " + folder, "Generation complete");
             }
             catch (System.Exception exc)
             {
-                MessageBox.Show("Generation failed: " + exc.Message);
+                showUserMessage("Generation failed: " + exc.Message);
             }
         }
 
@@ -7321,13 +7325,13 @@ namespace raptor
             MenuItem s = sender as MenuItem;
             if (this.fileName == null || this.fileName == "")
             {
-                MessageBox.Show("Must save before generating code",
+                showUserMessage("Must save before generating code",
                     "Can't generate code");
                 return;
             } 
             if (Component.compiled_flowchart)
             {
-                MessageBox.Show("Cannot generate code from compiled flowchart", "Unable to generate");
+                showUserMessage("Cannot generate code from compiled flowchart", "Unable to generate");
                 return;
             }
             else
@@ -7348,7 +7352,7 @@ namespace raptor
                     {
                         message = exc.Message;
                     }
-                    System.Windows.Forms.MessageBox.Show(message + "\n", "Compilation error",
+                    MessageBox.Show(message + "\n", "Compilation error",
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
@@ -7534,7 +7538,17 @@ namespace raptor
         }
 
 
-
+        private static void showUserMessage(string s,string title = "")
+        {
+            if (Visual_Flow_Form.command_line_run)
+            {
+                Console.WriteLine(s);
+            }
+            else
+            {
+                MessageBox.Show(s,title);
+            }
+        }
 
 
 

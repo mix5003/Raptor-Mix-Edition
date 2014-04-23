@@ -257,6 +257,7 @@ namespace raptor
             }
             string app_dir = System.IO.Path.GetDirectoryName(
                 System.Windows.Forms.Application.ExecutablePath);
+            Console.WriteLine("APP " + app_dir);
             System.IO.File.Copy(
                System.Windows.Forms.Application.ExecutablePath,
                System.IO.Path.Combine(directory, "raptor.dll"), true);

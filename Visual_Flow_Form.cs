@@ -31,9 +31,13 @@ namespace raptor
         private const int min_height = 370;
         private static bool starting_up = true;
 		// did we get the "/run" flag?
-		public static bool command_line_run = false;
-		public static bool command_line_input_redirect = false;
-		public static bool command_line_output_redirect = false;
+        public static bool compileLib = true;
+        public static bool command_line_run = compileLib;
+        public static bool command_line_input_redirect = compileLib;
+        public static bool command_line_output_redirect = compileLib;
+        public bool full_speed = compileLib;
+
+
 		private string My_Title = "Raptor";
 		public string tooltip_text = "";
 		public float scale = 0.75f;
@@ -86,7 +90,7 @@ namespace raptor
 		private IF_Control IFC;
 		private Loop LP;
         private Oval_Return RETURN;
-		public bool full_speed = false;
+		
 		private int x1, y1;
         internal NClass.GUI.Diagram.Project projectCore
         {
@@ -2480,9 +2484,20 @@ namespace raptor
                         commandLineRun(args, false, form);
                         return;
                     }
+                    else if (args.Length >= 2 && args[1] == "/compile")
+                    {
+                        form = new Visual_Flow_Form(true);
+                        commandLineCompile(args, false, form);
+                        return;
+                    }
                     else
                     {
+                        command_line_run = false;
+                        command_line_input_redirect = false;
+                        command_line_output_redirect = false;
+                        
                         form = new Visual_Flow_Form(false);
+                        form.full_speed = false;
                         form.loadTimer = new System.Timers.Timer(500.0);
                         form.loadTimer.Elapsed += new System.Timers.ElapsedEventHandler(form.loader);
                         form.load_filename = args[0];
@@ -2498,6 +2513,33 @@ namespace raptor
 				Application.Run(form);
 			}
 		}
+
+        private static void commandLineCompile(string[] args, bool silent, Visual_Flow_Form form)
+        {
+            bool remember = Component.compiled_flowchart;
+            command_line_run = true;
+            try
+            {
+                form.Load_File(args[0]);
+                if (Component.compiled_flowchart)
+                {
+                    throw new System.Exception("can't run compiled file from commandline");
+                }
+                string folder = System.IO.Path.GetDirectoryName(form.fileName) +
+                    System.IO.Path.DirectorySeparatorChar; ;
+                Console.WriteLine(folder);
+                Compile_Helpers.Compile_Flowchart_To(
+                    form.mainSubchart().Start,
+                    folder,
+                    "compiled.exe");
+                    
+            }
+            catch (System.Exception exc)
+            {
+                Console.WriteLine(exc.StackTrace);
+            }
+
+        }
 
         private static void commandLineRun(string[] args, bool silent, Visual_Flow_Form form)
         {
@@ -2515,6 +2557,7 @@ namespace raptor
             }
             catch (System.Exception exc)
             {
+                Console.WriteLine(exc.StackTrace);
                 file_failed = true;
             }
             form.full_speed = true;

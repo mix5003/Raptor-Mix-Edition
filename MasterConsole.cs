@@ -621,7 +621,7 @@ namespace raptor
             this.panel1.Controls.Add(this.clear_button);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 194);
+            this.panel1.Location = new System.Drawing.Point(0, 174);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(360, 56);
             this.panel1.TabIndex = 1;
@@ -656,7 +656,7 @@ namespace raptor
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(360, 194);
+            this.textBox1.Size = new System.Drawing.Size(360, 174);
             this.textBox1.TabIndex = 2;
             // 
             // mainMenu1
@@ -833,7 +833,7 @@ namespace raptor
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(360, 250);
+            this.ClientSize = new System.Drawing.Size(360, 230);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

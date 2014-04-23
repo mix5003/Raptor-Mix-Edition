@@ -1667,6 +1667,14 @@ namespace raptor
                     new System.Threading.ThreadStart(ShowConsole));
                 t.Start();
             }
+            else if (console == null && Visual_Flow_Form.command_line_run)
+            {
+                return;
+                console = new MasterConsole(true);
+                System.Threading.Thread t = new System.Threading.Thread(
+                    new System.Threading.ThreadStart(ShowConsole));
+                t.Start();
+            }
             while (!console.Created)
             {
                 System.Threading.Thread.Sleep(100);

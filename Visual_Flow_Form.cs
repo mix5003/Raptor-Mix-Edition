@@ -33,8 +33,8 @@ namespace raptor
 		// did we get the "/run" flag?
         public static bool compileLib = true;
         public static bool command_line_run = compileLib;
-        public static bool command_line_input_redirect = compileLib;
-        public static bool command_line_output_redirect = compileLib;
+        public static bool command_line_input_redirect = false;
+        public static bool command_line_output_redirect = false;
         public bool full_speed = compileLib;
 
 
@@ -2487,7 +2487,7 @@ namespace raptor
                     else if (args.Length >= 2 && args[1] == "/compile")
                     {
                         form = new Visual_Flow_Form(true);
-                        commandLineCompile(args, false, form);
+                        commandLineCompile(args, true, form);
                         return;
                     }
                     else
@@ -2525,7 +2525,8 @@ namespace raptor
                 {
                     throw new System.Exception("can't run compiled file from commandline");
                 }
-                string folder = System.IO.Path.GetDirectoryName(form.fileName) +
+
+                string folder = System.IO.Path.GetDirectoryName(System.IO.Path.GetFullPath(form.fileName)) +
                     System.IO.Path.DirectorySeparatorChar; ;
                 Console.WriteLine(folder);
                 Compile_Helpers.Compile_Flowchart_To(

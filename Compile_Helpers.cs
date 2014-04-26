@@ -257,13 +257,18 @@ namespace raptor
             }
             string app_dir = System.IO.Path.GetDirectoryName(
                 System.Windows.Forms.Application.ExecutablePath);
+            Console.WriteLine("SAVED " + directory);
             Console.WriteLine("APP " + app_dir);
+            Console.WriteLine("APPEXE " + System.Windows.Forms.Application.ExecutablePath);
             System.IO.File.Copy(
                System.Windows.Forms.Application.ExecutablePath,
                System.IO.Path.Combine(directory, "raptor.dll"), true);
             System.IO.File.Copy(
                System.IO.Path.Combine(app_dir, "interpreter.dll"),
                System.IO.Path.Combine(directory, "interpreter.dll"), true);
+            System.IO.File.Copy(
+               System.IO.Path.Combine(app_dir, "NClass.Core.dll"),
+               System.IO.Path.Combine(directory, "NClass.Core.dll"), true);
             System.IO.File.Copy(
                System.IO.Path.Combine(app_dir, "dotnetgraph.dll"),
                System.IO.Path.Combine(directory, "dotnetgraph.dll"), true);

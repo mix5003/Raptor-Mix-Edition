@@ -6,7 +6,7 @@
     </StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>C:\Users\Sorrawut\Desktop\RAPTOR\test\hello.rap /compile</StartArguments>
+    <StartArguments>./hello.rap /compile</StartArguments>
     <StartWorkingDirectory>c:\temp</StartWorkingDirectory>
   </PropertyGroup>
 </Project>

@@ -1622,8 +1622,7 @@ namespace raptor
 				if (console==null || Visual_Flow_Form.command_line_run)
 				{
 					Console.Write(s);
-				}
-                if (parent != null)
+				}else if (parent != null)
                 {
                     System.Threading.Thread.Sleep(1);
                     parent.Invoke(parent_focus_delegate, new object[] { parent });

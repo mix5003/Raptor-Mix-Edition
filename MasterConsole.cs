@@ -569,7 +569,7 @@ namespace raptor
 		// mcc: big changes 3/3/05 to allow multiple lines in set_text call
 		public void set_text(string text)
 		{
-            if (Visual_Flow_Form.command_line_run) { Console.WriteLine(text);  return; }
+            if (Visual_Flow_Form.command_line_run) {  return; }
             Object[] args = new Object[2];
             args[0] = this;
             args[1] = text;

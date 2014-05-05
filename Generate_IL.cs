@@ -248,7 +248,6 @@ namespace raptor
         public void Emit_Load(string name)
         {
             LocalBuilder local = null;
-            Console.WriteLine("VAR:" + name);
             if (variables.ContainsKey(name.ToLower()))
             {
                 local = ((LocalBuilder)variables[name.ToLower()]);

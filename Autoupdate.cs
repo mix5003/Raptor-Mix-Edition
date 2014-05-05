@@ -42,6 +42,7 @@ namespace raptor
 
 		public static bool Autoupdate_Requested()
 		{
+            return false;
 			try 
 			{
 				RegistryKey HKCU = Registry.LocalMachine;

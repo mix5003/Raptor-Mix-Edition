@@ -1581,6 +1581,7 @@ namespace raptor
                 if (Visual_Flow_Form.command_line_run)
                 {
                     val = Console.ReadLine();
+                    if (val == null) throw new System.IO.EndOfStreamException();
                 }
                 else
                 {
